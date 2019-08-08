@@ -1,0 +1,52 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; ":HighCourt" ":Jurisdiction" ":NonClassifiedEntity" ":NHSBoard" "http://data.europa.eu/m8g/PublicOrganisation" ":SupremeCourt" ":NonClassifiedGovernmentEntity" ":SheriffAppealCourt" ":CrownEstate" ":ParlBody" ":CommunityCouncil" ":Council" ":Executive" ":ExpertCommittee" ":NationalParkAuthority" ":UtilityRegulator" ":Regulator" ":Advisory" ":OtherSigBody" ":ConservationBoardAONB" ":NDPB" ":CentralGovernmentOrganisation" ":OfficeOrTaskforce" "http://www.w3.org/ns/legal#LegalEntity" ":RegisteredOrganization" ":ParlCommOrOmbuds" ":Function" ":Organization" ":ParliamentaryCommissioner" ":FormalOrganization" ":NonMarketBody" ":CentralBank" ":RegionalTransportPartnership" ":LocalJurisdiction" ":ArmsLengthBody" ":NonMinisterialDept" ":SheriffCourt" ":StatutoryOfficeHolder" ":DepartmentSpecificEntityType" ":Court" ":PublicBroadcastingAuthority" ":EducationalEstablishment" ":WorkingGroup" ":HealthBody" ":DevolvedAdministration" ":MarketBody" ":JPCourt" ":NationalJurisdiction" ":LocalGovernmentOrganisation" ":Tribunal" ; /*classes style*/
+	":StatutoryOfficeHolder" -> ":NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	":Advisory" -> ":Function" [ label = "rdfs:subClassOf" ];
+	":CentralBank" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":HighCourt" -> ":Court" [ label = "rdfs:subClassOf" ];
+	":PublicBroadcastingAuthority" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":ExpertCommittee" -> ":NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	":RegionalTransportPartnership" -> ":LocalGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	":NonMinisterialDept" -> ":ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	":OtherSigBody" -> ":ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	":DevolvedAdministration" -> ":CentralGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	":CrownEstate" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/ns/legal#LegalEntity" -> ":FormalOrganization" [ label = "rdfs:subClassOf" ];
+	":HealthBody" -> ":ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	":CommunityCouncil" -> ":LocalGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	":RegisteredOrganization" -> ":FormalOrganization" [ label = "rdfs:subClassOf" ];
+	":ArmsLengthBody" -> ":CentralGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	":UtilityRegulator" -> ":Regulator" [ label = "rdfs:subClassOf" ];
+	":SheriffAppealCourt" -> ":Court" [ label = "rdfs:subClassOf" ];
+	":NationalParkAuthority" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":CentralGovernmentOrganisation" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":ParlBody" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":EducationalEstablishment" -> ":Organization" [ label = "rdfs:subClassOf" ];
+	":JPCourt" -> ":Court" [ label = "rdfs:subClassOf" ];
+	"http://data.europa.eu/m8g/PublicOrganisation" -> ":Organization" [ label = "rdfs:subClassOf" ];
+	":NonMarketBody" -> ":Organization" [ label = "rdfs:subClassOf" ];
+	":ConservationBoardAONB" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":ParlCommOrOmbuds" -> ":ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	":LocalGovernmentOrganisation" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":OfficeOrTaskforce" -> ":NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	":DepartmentSpecificEntityType" -> ":NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	":Court" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":Tribunal" -> ":ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	":Council" -> ":LocalGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	":SupremeCourt" -> ":Court" [ label = "rdfs:subClassOf" ];
+	":NonClassifiedEntity" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":Executive" -> ":Function" [ label = "rdfs:subClassOf" ];
+	":SheriffCourt" -> ":Court" [ label = "rdfs:subClassOf" ];
+	":NDPB" -> ":ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	":ParliamentaryCommissioner" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":MarketBody" -> ":Organization" [ label = "rdfs:subClassOf" ];
+	":NHSBoard" -> ":HealthBody" [ label = "rdfs:subClassOf" ];
+	":Regulator" -> "http://data.europa.eu/m8g/PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	":WorkingGroup" -> ":NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	":LocalJurisdiction" -> ":Jurisdiction" [ label = "rdfs:subClassOf" ];
+	":NationalJurisdiction" -> ":Jurisdiction" [ label = "rdfs:subClassOf" ];
+	":NonClassifiedGovernmentEntity" -> ":NonClassifiedEntity" [ label = "rdfs:subClassOf" ];
+
+}
