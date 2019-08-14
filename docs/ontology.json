@@ -205,24 +205,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"
-    }, {
-      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/Court"
-    }, {
-      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/CrownEstate"
-    }, {
-      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
-    }, {
-      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody"
-    }, {
-      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid59",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
       "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/HighCourt"
     }, {
       "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/JPCourt"
@@ -287,7 +269,7 @@
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
-    "@value" : "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organizations (public), including the organization of the offices and their head of units. It is in draft form."
+    "@value" : "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organisations (public), including the organisation of the sub-organisations. It is in draft form."
   } ],
   "http://purl.org/dc/terms/language" : [ {
     "@id" : "http://publications.europa.eu/resource/authority/language/ENG"
@@ -711,6 +693,16 @@
     "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
   } ]
 }, {
+  "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Regulated and Inspected Service Provider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ]
+}, {
   "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -749,16 +741,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
-  } ]
-}, {
-  "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Parliamentary Commissioner"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
   } ]
 }, {
   "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority",
@@ -1012,6 +994,13 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Post Qualification Education Board for Health Science Pharmacists in Scotland"
+  } ]
+}, {
+  "@id" : "http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Loch Lomond and The Trossachs National Park Authority"
   } ]
 }, {
   "@id" : "http://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e",
@@ -2531,6 +2520,13 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Scottish Legal Aid Board"
+  } ]
+}, {
+  "@id" : "http://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cairngorms National Park Authority"
   } ]
 }, {
   "@id" : "http://entities.gov.scot/id/gov/puborg/e91456dc_9c49_4f34_b04f_e93ea4e69a69",

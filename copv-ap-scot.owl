@@ -23,7 +23,7 @@
                                                  owl:versionIRI <http://entities.gov.scot/def/gov/cpov-ap-scot/1/> ;
                                                  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
                                                  dct:creator <http://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244> ;
-                                                 dct:description "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organizations (public), including the organization of the offices and their head of units. It is in draft form."@en ;
+                                                 dct:description "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organisations (public), including the organisation of the sub-organisations. It is in draft form."@en ;
                                                  dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
                                                  dct:licence <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> ;
                                                  dct:modified "2019-04-29"^^xsd:date ;
@@ -589,6 +589,12 @@ cv:PublicOrganisation rdf:type owl:Class ;
                     rdfs:label "Non-Ministerial Department"@en .
 
 
+###  http://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5
+:OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5 rdf:type owl:Class ;
+                                               rdfs:subClassOf org:Organization ;
+                                               rdfs:label "Regulated and Inspected Service Provider"@en .
+
+
 ###  http://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce
 :OfficeOrTaskforce rdf:type owl:Class ;
                    rdfs:subClassOf :NonClassifiedGovernmentEntity ;
@@ -611,12 +617,6 @@ cv:PublicOrganisation rdf:type owl:Class ;
 :ParlCommOrOmbuds rdf:type owl:Class ;
                   rdfs:subClassOf :ArmsLengthBody ;
                   rdfs:label "Parliamentary Commissioner or Ombudsman"@en .
-
-
-###  http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner
-:ParliamentaryCommissioner rdf:type owl:Class ;
-                           rdfs:subClassOf cv:PublicOrganisation ;
-                           rdfs:label "Parliamentary Commissioner"@en .
 
 
 ###  http://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority
@@ -1146,6 +1146,12 @@ id:e702314e_b191_4ccb_bab5_05653cb7059c rdf:type owl:NamedIndividual ,
                                         rdfs:label "Scottish Legal Aid Board"@en .
 
 
+###  http://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9
+id:e80b7842_1811_4f42_ada0_9090470f76d9 rdf:type owl:NamedIndividual ,
+                                                 :NationalParkAuthority ;
+                                        rdfs:label "Cairngorms National Park Authority"@en .
+
+
 ###  http://entities.gov.scot/id/gov/puborg/e91456dc_9c49_4f34_b04f_e93ea4e69a69
 id:e91456dc_9c49_4f34_b04f_e93ea4e69a69 rdf:type owl:NamedIndividual ,
                                                  :ExecutiveNDPB ;
@@ -1325,6 +1331,12 @@ id:ffa00757_d039_4be2_91a6_58643a639ab5 rdf:type owl:NamedIndividual ,
 <http://entities.gov.scot/id/gov/puborg/0ab6f5ba_0b95_42a8_897b_a5e8a10ef0d4> rdf:type owl:NamedIndividual ,
                                                                                        :AdvisoryNDPB ;
                                                                               rdfs:label "Post Qualification Education Board for Health Science Pharmacists in Scotland"@en .
+
+
+###  http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765
+<http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765> rdf:type owl:NamedIndividual ,
+                                                                                       :NationalParkAuthority ;
+                                                                              rdfs:label "Loch Lomond and The Trossachs National Park Authority"@en .
 
 
 ###  http://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e
@@ -2304,8 +2316,8 @@ schema:email rdfs:label "has email"@en ;
              vann:usageNote "A property through which an e-mail address for the Public Organisation, or a representative of it, can be contacted."@en .
 
 
-schema:hoursAvailable vann:usageNote "The availabilityRestriction property links a Contact Point to details of specific details of its opening hours that override the general case."@en ;
-                      rdfs:label "availability restriction"@en .
+schema:hoursAvailable rdfs:label "availability restriction"@en ;
+                      vann:usageNote "The availabilityRestriction property links a Contact Point to details of specific details of its opening hours that override the general case."@en .
 
 
 schema:logo vann:usageNote "A property to link an organization to its logo. The value of this property can simply be the URL of the logo but it is better for developers if it links to an object that provides the URL of the image and essential metadata about it, notably its dimensions. In the RDF release of the CPOV, this property is bound to schema:logo which takes either a URL or a schema:ImageObject as its value."@en ;
@@ -2331,17 +2343,6 @@ org:identifier vann:usageNote "Many organizations are referred to by an acronym 
 #################################################################
 #    General axioms
 #################################################################
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :CentralGovernmentOrganisation
-                :Court
-                :CrownEstate
-                :LocalGovernmentOrganisation
-                :ParlBody
-                :ParliamentaryCommissioner
-              )
-] .
-
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :HighCourt

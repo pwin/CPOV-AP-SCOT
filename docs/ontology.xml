@@ -24,7 +24,7 @@
         <owl:versionIRI rdf:resource="http://entities.gov.scot/def/gov/cpov-ap-scot/1/"/>
         <terms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <terms:creator rdf:resource="http://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244"/>
-        <terms:description xml:lang="en">This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organizations (public), including the organization of the offices and their head of units. It is in draft form.</terms:description>
+        <terms:description xml:lang="en">This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organisations (public), including the organisation of the sub-organisations. It is in draft form.</terms:description>
         <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
         <terms:licence rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
         <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-29</terms:modified>
@@ -996,6 +996,16 @@
     
 
 
+    <!-- http://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5 -->
+
+
+    <owl:Class rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:label xml:lang="en">Regulated and Inspected Service Provider</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce -->
 
 
@@ -1032,16 +1042,6 @@
     <owl:Class rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/ParlCommOrOmbuds">
         <rdfs:subClassOf rdf:resource="http://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"/>
         <rdfs:label xml:lang="en">Parliamentary Commissioner or Ombudsman</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner -->
-
-
-    <owl:Class rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner">
-        <rdfs:subClassOf rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
-        <rdfs:label xml:lang="en">Parliamentary Commissioner</rdfs:label>
     </owl:Class>
     
 
@@ -1923,6 +1923,16 @@
     
 
 
+    <!-- http://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9">
+        <rdf:type rdf:resource="http://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority"/>
+        <rdfs:label xml:lang="en">Cairngorms National Park Authority</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://entities.gov.scot/id/gov/puborg/e91456dc_9c49_4f34_b04f_e93ea4e69a69 -->
 
 
@@ -2220,6 +2230,16 @@
     <owl:NamedIndividual rdf:about="http://entities.gov.scot/id/gov/puborg/0ab6f5ba_0b95_42a8_897b_a5e8a10ef0d4">
         <rdf:type rdf:resource="http://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB"/>
         <rdfs:label xml:lang="en">Post Qualification Education Board for Health Science Pharmacists in Scotland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765 -->
+
+
+    <owl:NamedIndividual rdf:about="http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765">
+        <rdf:type rdf:resource="http://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority"/>
+        <rdfs:label xml:lang="en">Loch Lomond and The Trossachs National Park Authority</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3882,17 +3902,6 @@
      -->
 
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"/>
-            <rdf:Description rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/Court"/>
-            <rdf:Description rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/CrownEstate"/>
-            <rdf:Description rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"/>
-            <rdf:Description rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody"/>
-            <rdf:Description rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">

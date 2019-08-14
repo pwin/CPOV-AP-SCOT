@@ -2,7 +2,7 @@
 <http://entities.gov.scot/def/gov/cpov-ap-scot> <http://www.w3.org/2002/07/owl#versionIRI> <http://entities.gov.scot/def/gov/cpov-ap-scot/1/> .
 <http://entities.gov.scot/def/gov/cpov-ap-scot> <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> .
 <http://entities.gov.scot/def/gov/cpov-ap-scot> <http://purl.org/dc/terms/creator> <http://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244> .
-<http://entities.gov.scot/def/gov/cpov-ap-scot> <http://purl.org/dc/terms/description> "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organizations (public), including the organization of the offices and their head of units. It is in draft form."@en .
+<http://entities.gov.scot/def/gov/cpov-ap-scot> <http://purl.org/dc/terms/description> "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organisations (public), including the organisation of the sub-organisations. It is in draft form."@en .
 <http://entities.gov.scot/def/gov/cpov-ap-scot> <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> .
 <http://entities.gov.scot/def/gov/cpov-ap-scot> <http://purl.org/dc/terms/licence> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> .
 <http://entities.gov.scot/def/gov/cpov-ap-scot> <http://purl.org/dc/terms/modified> "2019-04-29"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -522,6 +522,11 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody> .
 <http://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept> <http://www.w3.org/2000/01/rdf-schema#label> "Non-Ministerial Department"@en .
 # 
+# http://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5
+<http://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organization> .
+<http://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5> <http://www.w3.org/2000/01/rdf-schema#label> "Regulated and Inspected Service Provider"@en .
+# 
 # http://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce
 <http://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity> .
@@ -541,11 +546,6 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://entities.gov.scot/def/gov/cpov-ap-scot/ParlCommOrOmbuds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://entities.gov.scot/def/gov/cpov-ap-scot/ParlCommOrOmbuds> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody> .
 <http://entities.gov.scot/def/gov/cpov-ap-scot/ParlCommOrOmbuds> <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary Commissioner or Ombudsman"@en .
-# 
-# http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner
-<http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/m8g/PublicOrganisation> .
-<http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner> <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary Commissioner"@en .
 # 
 # http://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority
 <http://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1001,6 +1001,11 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://entities.gov.scot/id/gov/puborg/e702314e_b191_4ccb_bab5_05653cb7059c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB> .
 <http://entities.gov.scot/id/gov/puborg/e702314e_b191_4ccb_bab5_05653cb7059c> <http://www.w3.org/2000/01/rdf-schema#label> "Scottish Legal Aid Board"@en .
 # 
+# http://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9
+<http://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority> .
+<http://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9> <http://www.w3.org/2000/01/rdf-schema#label> "Cairngorms National Park Authority"@en .
+# 
 # http://entities.gov.scot/id/gov/puborg/e91456dc_9c49_4f34_b04f_e93ea4e69a69
 <http://entities.gov.scot/id/gov/puborg/e91456dc_9c49_4f34_b04f_e93ea4e69a69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://entities.gov.scot/id/gov/puborg/e91456dc_9c49_4f34_b04f_e93ea4e69a69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB> .
@@ -1151,6 +1156,11 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://entities.gov.scot/id/gov/puborg/0ab6f5ba_0b95_42a8_897b_a5e8a10ef0d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://entities.gov.scot/id/gov/puborg/0ab6f5ba_0b95_42a8_897b_a5e8a10ef0d4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB> .
 <http://entities.gov.scot/id/gov/puborg/0ab6f5ba_0b95_42a8_897b_a5e8a10ef0d4> <http://www.w3.org/2000/01/rdf-schema#label> "Post Qualification Education Board for Health Science Pharmacists in Scotland"@en .
+# 
+# http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765
+<http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority> .
+<http://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765> <http://www.w3.org/2000/01/rdf-schema#label> "Loch Lomond and The Trossachs National Park Authority"@en .
 # 
 # http://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e
 <http://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2018,42 +2028,21 @@ _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # 
 _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid52 <http://www.w3.org/2002/07/owl#members> _:genid58 .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation> .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid52 <http://www.w3.org/2002/07/owl#members> _:genid57 .
 _:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/Court> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/HighCourt> .
 _:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
 _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/CrownEstate> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/JPCourt> .
 _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
 _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/SheriffAppealCourt> .
 _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
 _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/SheriffCourt> .
 _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
 _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/ParliamentaryCommissioner> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/SupremeCourt> .
 _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-# 
-_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid59 <http://www.w3.org/2002/07/owl#members> _:genid64 .
-_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/HighCourt> .
-_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/JPCourt> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/SheriffAppealCourt> .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/SheriffCourt> .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
-_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://entities.gov.scot/def/gov/cpov-ap-scot/SupremeCourt> .
-_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
