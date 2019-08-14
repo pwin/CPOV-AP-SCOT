@@ -1,0 +1,397 @@
+{
+  "@context" : {
+    "implements" : {
+      "@id" : "http://purl.org/vocab/cpsv#implements",
+      "@type" : "@id"
+    },
+    "CrownEstate" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CrownEstate"
+    },
+    "CentralBank" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralBank"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "NDPB" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NDPB"
+    },
+    "LocalJurisdiction" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction"
+    },
+    "accrualPeriodicity" : {
+      "@id" : "http://purl.org/dc/terms/accrualPeriodicity"
+    },
+    "next" : {
+      "@id" : "http://www.w3.org/1999/xhtml/vocab#next",
+      "@type" : "@id"
+    },
+    "UtilityRegulator" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/UtilityRegulator"
+    },
+    "Organization" : {
+      "@id" : "http://www.w3.org/ns/org#Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "usageNote" : {
+      "@id" : "http://purl.org/vocab/vann/usageNote"
+    },
+    "ParlCommOrOmbuds" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ParlCommOrOmbuds"
+    },
+    "CentralGovPB" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB"
+    },
+    "hasVersion" : {
+      "@id" : "http://purl.org/dc/terms/hasVersion"
+    },
+    "workflow_status" : {
+      "@id" : "http://joinup.eu/is/workflow_status"
+    },
+    "HighCourt" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/HighCourt"
+    },
+    "NonMarketBody" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMarketBody"
+    },
+    "originalOrganization" : {
+      "@id" : "http://www.w3.org/ns/org#originalOrganization",
+      "@type" : "@id"
+    },
+    "NonClassifiedGovernmentEntity" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasLegalStatus" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasLegalStatus",
+      "@type" : "@id"
+    },
+    "subOrganizationOf" : {
+      "@id" : "http://www.w3.org/ns/org#subOrganizationOf",
+      "@type" : "@id"
+    },
+    "JPCourt" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/JPCourt"
+    },
+    "ExecutiveAgency" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency"
+    },
+    "OfficeOrTaskforce" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce"
+    },
+    "webdav_creation" : {
+      "@id" : "http://joinup.eu/solution/webdav_creation"
+    },
+    "SpecialPurposeVehicle" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialPurposeVehicle"
+    },
+    "LegalStatus" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LegalStatus"
+    },
+    "FormalOrganization" : {
+      "@id" : "http://www.w3.org/ns/org#FormalOrganization"
+    },
+    "LocalGovernmentOrganisation" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
+    },
+    "OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5"
+    },
+    "HealthBody" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/HealthBody"
+    },
+    "TerritorialNHSBoard" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard"
+    },
+    "NationalParkAuthority" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority"
+    },
+    "uid" : {
+      "@id" : "http://joinup.eu/owner/uid"
+    },
+    "ChangeEvent" : {
+      "@id" : "http://www.w3.org/ns/org#ChangeEvent"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder"
+    },
+    "elibrary_creation" : {
+      "@id" : "http://joinup.eu/solution/elibrary_creation"
+    },
+    "NonClassifiedEntity" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedEntity"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "LocalHarbourTrust" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust"
+    },
+    "NHSBoard" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NHSBoard"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "ParlBody" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody"
+    },
+    "site-pinned" : {
+      "@id" : "http://joinup.eu/site-pinned"
+    },
+    "SupremeCourt" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SupremeCourt"
+    },
+    "ContactPoint" : {
+      "@id" : "http://schema.org/ContactPoint"
+    },
+    "CommunityCouncil" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CommunityCouncil"
+    },
+    "hasMember" : {
+      "@id" : "http://www.w3.org/ns/org#hasMember",
+      "@type" : "@id"
+    },
+    "RegionalTransportPartnership" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership"
+    },
+    "resultingOrganization" : {
+      "@id" : "http://www.w3.org/ns/org#resultingOrganization",
+      "@type" : "@id"
+    },
+    "WorkingGroup" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/WorkingGroup"
+    },
+    "SheriffAppealCourt" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffAppealCourt"
+    },
+    "PublicBroadcastingAuthority" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority"
+    },
+    "address" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/address",
+      "@type" : "@id"
+    },
+    "status" : {
+      "@id" : "http://www.w3.org/ns/adms#status"
+    },
+    "Executive" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Executive"
+    },
+    "prev" : {
+      "@id" : "http://www.w3.org/1999/xhtml/vocab#prev",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "RegisteredOrganization" : {
+      "@id" : "http://www.w3.org/ns/regorg#RegisteredOrganization"
+    },
+    "keyword" : {
+      "@id" : "http://www.w3.org/ns/dcat#keyword"
+    },
+    "ConservationBoardAONB" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ConservationBoardAONB"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "site-featured" : {
+      "@id" : "http://joinup.eu/site-featured"
+    },
+    "translation_source" : {
+      "@id" : "http://joinup.eu/language/translation_source"
+    },
+    "ArmsLengthBody" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Tribunal" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal"
+    },
+    "SpecialNHSBoard" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard"
+    },
+    "NationalJurisdiction" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NationalJurisdiction"
+    },
+    "Jurisdiction" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Jurisdiction"
+    },
+    "translation_author" : {
+      "@id" : "http://joinup.eu/language/translation_author"
+    },
+    "hasFunction" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type"
+    },
+    "related_by_type" : {
+      "@id" : "http://joinup.eu/solution/related_by_type"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "licence" : {
+      "@id" : "http://purl.org/dc/terms/licence"
+    },
+    "hasJurisdiction" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction",
+      "@type" : "@id"
+    },
+    "Regulator" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Regulator"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "OpeningHoursSpecification" : {
+      "@id" : "http://schema.org/OpeningHoursSpecification"
+    },
+    "hasUnit" : {
+      "@id" : "http://www.w3.org/ns/org#hasUnit",
+      "@type" : "@id"
+    },
+    "policy-domain" : {
+      "@id" : "http://joinup.eu/voc/policy-domain"
+    },
+    "FoundationEvent" : {
+      "@id" : "http://data.europa.eu/m8g/FoundationEvent"
+    },
+    "Court" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Court"
+    },
+    "StillImage" : {
+      "@id" : "http://purl.org/dc/dcmitype/StillImage"
+    },
+    "NonMinisterialDept" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept"
+    },
+    "ExpertCommittee" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ExpertCommittee"
+    },
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint"
+    },
+    "CentralGovernmentOrganisation" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"
+    },
+    "moderation" : {
+      "@id" : "http://joinup.eu/solution/moderation"
+    },
+    "Function" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Function"
+    },
+    "hasSubOrganization" : {
+      "@id" : "http://www.w3.org/ns/org#hasSubOrganization",
+      "@type" : "@id"
+    },
+    "AdvisoryNDPB" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB"
+    },
+    "StatutoryOfficeHolder" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/StatutoryOfficeHolder"
+    },
+    "translation_status" : {
+      "@id" : "http://joinup.eu/language/translation_status"
+    },
+    "Council" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Council"
+    },
+    "memberOf" : {
+      "@id" : "http://www.w3.org/ns/org#memberOf",
+      "@type" : "@id"
+    },
+    "hasFormalFramework" : {
+      "@id" : "http://data.europa.eu/m8g/hasFormalFramework",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Image" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Image"
+    },
+    "language" : {
+      "@id" : "http://joinup.eu/language"
+    },
+    "Advisory" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Advisory"
+    },
+    "resultedFrom" : {
+      "@id" : "http://www.w3.org/ns/org#resultedFrom",
+      "@type" : "@id"
+    },
+    "OtherSigBody" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody"
+    },
+    "LegalEntity" : {
+      "@id" : "http://www.w3.org/ns/legal#LegalEntity"
+    },
+    "search" : {
+      "@id" : "http://joinup.eu/search"
+    },
+    "DevolvedAdministration" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/DevolvedAdministration"
+    },
+    "IntegrationAuthority" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority"
+    },
+    "ExecutiveNDPB" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB"
+    },
+    "SheriffCourt" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffCourt"
+    },
+    "default" : {
+      "@id" : "http://joinup.eu/language/default"
+    },
+    "DepartmentSpecificEntityType" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/DepartmentSpecificEntityType"
+    },
+    "PublicOrganisation" : {
+      "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+    },
+    "unitOf" : {
+      "@id" : "http://www.w3.org/ns/org#unitOf",
+      "@type" : "@id"
+    },
+    "LocalGovPB" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPB"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "FormalFramework" : {
+      "@id" : "http://purl.org/vocab/cpsv#FormalFramework"
+    },
+    "EducationalEstablishment" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/EducationalEstablishment"
+    },
+    "MarketBody" : {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/MarketBody"
+    },
+    "purpose" : {
+      "@id" : "http://www.w3.org/ns/org#purpose"
+    }
+  }
+}
