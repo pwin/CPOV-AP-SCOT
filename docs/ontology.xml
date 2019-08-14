@@ -3731,14 +3731,7 @@
 
 
     <owl:NamedIndividual rdf:about="http://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d">
-        <rdf:type>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB"/>
-                    <rdf:Description rdf:about="http://www.w3.org/ns/regorg#RegisteredOrganization"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdf:type>
+        <rdf:type rdf:resource="http://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB"/>
         <rdfs:label xml:lang="en">Highlands and Islands Airports Ltd</rdfs:label>
     </owl:NamedIndividual>
     

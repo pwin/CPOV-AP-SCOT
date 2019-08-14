@@ -16,7 +16,7 @@
       "en" : "Scottish Organization (Public) ontology"
     },
     "comments" : {
-      "en" : "Scottish application profile for EC Core Public Organisation Vocabulary"
+      "en" : "This is the ontology of the Scottish application profile of Organisations (Public)"
     },
     "other" : {
       "rightsHolder" : [ {
@@ -61,16 +61,16 @@
         "value" : "2019-04-29",
         "type" : "label"
       } ],
-      "accrualPeriodicity" : [ {
-        "identifier" : "accrualPeriodicity",
-        "language" : "undefined",
-        "value" : "http://publications.europa.eu/resource/authority/frequency/IRREG",
-        "type" : "iri"
-      } ],
       "language" : [ {
         "identifier" : "language",
         "language" : "undefined",
         "value" : "http://publications.europa.eu/resource/authority/language/ENG",
+        "type" : "iri"
+      } ],
+      "accrualPeriodicity" : [ {
+        "identifier" : "accrualPeriodicity",
+        "language" : "undefined",
+        "value" : "http://publications.europa.eu/resource/authority/frequency/IRREG",
         "type" : "iri"
       } ],
       "versionInfo" : [ {
@@ -215,10 +215,10 @@
     "id" : "115",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
+    "id" : "102",
     "type" : "owl:Class"
   }, {
-    "id" : "102",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
     "id" : "116",
@@ -239,10 +239,10 @@
     "id" : "75",
     "type" : "owl:Class"
   }, {
-    "id" : "93",
+    "id" : "44",
     "type" : "owl:Class"
   }, {
-    "id" : "44",
+    "id" : "93",
     "type" : "owl:Class"
   }, {
     "id" : "132",
@@ -275,10 +275,10 @@
     "id" : "123",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "47",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
     "id" : "21",
@@ -382,18 +382,18 @@
       "en" : "Advisory Non-Departmental Public Body"
     },
     "individuals" : [ {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/9b9cae69_78c1_4c2a_9b56_b1d2b2ecc9a8",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "9b9cae69_78c1_4c2a_9b56_b1d2b2ecc9a8",
-        "en" : "Scottish Local Authorities Remuneration Committee"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/d286ad7d_dc8a_4c05_a7ed_99de63a7c484",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "d286ad7d_dc8a_4c05_a7ed_99de63a7c484",
         "en" : "Judicial Appointments Board for Scotland"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/9b9cae69_78c1_4c2a_9b56_b1d2b2ecc9a8",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "9b9cae69_78c1_4c2a_9b56_b1d2b2ecc9a8",
+        "en" : "Scottish Local Authorities Remuneration Committee"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/0ab6f5ba_0b95_42a8_897b_a5e8a10ef0d4",
@@ -546,18 +546,18 @@
         "en" : "Office of the Queens Printer for Scotland"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/3e20c75b_dc59_4db7_9e2d_447ddc79ea4f",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "3e20c75b_dc59_4db7_9e2d_447ddc79ea4f",
-        "en" : "Audit Scotland"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/0c3f3d4e_d684_4b7e_9ecf_cc633c94e7b5",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "0c3f3d4e_d684_4b7e_9ecf_cc633c94e7b5",
         "en" : "HM Inspector of Constabulary in Scotland"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/3e20c75b_dc59_4db7_9e2d_447ddc79ea4f",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "3e20c75b_dc59_4db7_9e2d_447ddc79ea4f",
+        "en" : "Audit Scotland"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/f25de991_8209_4032_9a5d_806801e0a9c2",
@@ -772,18 +772,18 @@
         "en" : "Aberdeenshire Council"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/eaf6eec5_a6cc_45af_a187_65e823b00201",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "eaf6eec5_a6cc_45af_a187_65e823b00201",
-        "en" : "Fife Council"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/16c389a0_0fbc_4f3c_92cc_97f7166610a9",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "16c389a0_0fbc_4f3c_92cc_97f7166610a9",
         "en" : "East Renfrewshire Council"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/eaf6eec5_a6cc_45af_a187_65e823b00201",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "eaf6eec5_a6cc_45af_a187_65e823b00201",
+        "en" : "Fife Council"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/614945b1_4185_4068_bc0c_b8774d96801b",
@@ -1023,13 +1023,6 @@
         "en" : "State Hospitals Board for Scotland"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/6cb35dd9_3e43_4fb8_a659_61909f816ecd",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "6cb35dd9_3e43_4fb8_a659_61909f816ecd",
-        "en" : "Scottish Ambulance Service"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/10bd68bf_2769_45bc_9c4d_0bf0041f2506",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
@@ -1042,6 +1035,13 @@
       "labels" : {
         "IRI-based" : "147fb4c3_9cd9_481a_9fb0_a968b6ab7932",
         "en" : "NHS Health Scotland"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/6cb35dd9_3e43_4fb8_a659_61909f816ecd",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "6cb35dd9_3e43_4fb8_a659_61909f816ecd",
+        "en" : "Scottish Ambulance Service"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/54ef0c17_a26e_4da2_a01d_f3389ef1d5bd",
@@ -1113,18 +1113,18 @@
         "en" : "Montrose Port"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/71a3383f_377c_4b74_b099_286c5db0bbfe",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "71a3383f_377c_4b74_b099_286c5db0bbfe",
-        "en" : "Cruden Bay Harbour"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/f89b9bd1_527e_48f4_b04a_a2e1ae24dbca",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "f89b9bd1_527e_48f4_b04a_a2e1ae24dbca",
         "en" : "Skerray Harbour"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/71a3383f_377c_4b74_b099_286c5db0bbfe",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "71a3383f_377c_4b74_b099_286c5db0bbfe",
+        "en" : "Cruden Bay Harbour"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/c29a268a_1076_4bd5_836f_2b61e01a4c03",
@@ -1204,18 +1204,18 @@
         "en" : "Mallaig Harbour"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/e9d3286c_0c44_4a52_9cfb_1569dddb1c3f",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "e9d3286c_0c44_4a52_9cfb_1569dddb1c3f",
-        "en" : "Cromarty Firth"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/a5f61920_b25a_4893_97b8_ae6fb8a113b1",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "a5f61920_b25a_4893_97b8_ae6fb8a113b1",
         "en" : "Cromarty Harbour"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/e9d3286c_0c44_4a52_9cfb_1569dddb1c3f",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "e9d3286c_0c44_4a52_9cfb_1569dddb1c3f",
+        "en" : "Cromarty Firth"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/2efa3045_2773_4f3f_9a78_64789c31b8ce",
@@ -1232,18 +1232,18 @@
         "en" : "Rosehearty Harbour"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/40fb1f18_7f5c_4828_9542_377b6489f43c",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "40fb1f18_7f5c_4828_9542_377b6489f43c",
-        "en" : "Brownies Taing (Lerwick)"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/e91c3f4c_1093_4a08_84a0_de760266e45e",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "e91c3f4c_1093_4a08_84a0_de760266e45e",
         "en" : "Urr Navigation"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/40fb1f18_7f5c_4828_9542_377b6489f43c",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "40fb1f18_7f5c_4828_9542_377b6489f43c",
+        "en" : "Brownies Taing (Lerwick)"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/fd6564c4_6e62_49f9_a53f_90e893de80bd",
@@ -1253,18 +1253,18 @@
         "en" : "Annan Harbour"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/4fb51bb8_b7c8_4963_8d10_c1e968092f2f",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "4fb51bb8_b7c8_4963_8d10_c1e968092f2f",
-        "en" : "Peterhead Port"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/a0cd94c2_2275_4763_be5a_d079315227cd",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "a0cd94c2_2275_4763_be5a_d079315227cd",
         "en" : "North Berwick Harbour"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/4fb51bb8_b7c8_4963_8d10_c1e968092f2f",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "4fb51bb8_b7c8_4963_8d10_c1e968092f2f",
+        "en" : "Peterhead Port"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/1a580f88_ffa9_4258_b09b_d7b2eb24dba0",
@@ -1274,11 +1274,11 @@
         "en" : "St Abbs Harbour (Coldingham Shore)"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/edbf2355_5ff8_49b0_8fc2_36a17afc9f4b",
+      "iri" : "http://entities.gov.scot/id/gov/puborg/ea45a966_9daa_479d_bd1f_2139f58ea731",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
-        "IRI-based" : "edbf2355_5ff8_49b0_8fc2_36a17afc9f4b",
-        "en" : "Port Seton Harbour"
+        "IRI-based" : "ea45a966_9daa_479d_bd1f_2139f58ea731",
+        "en" : "Ullapool Harbour"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/0d00eb12_4c67_4ad8_a596_4216faa7aa48",
@@ -1288,18 +1288,11 @@
         "en" : "St Margaret‘s Hope Pier (Sth Ronaldsay)"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/ea45a966_9daa_479d_bd1f_2139f58ea731",
+      "iri" : "http://entities.gov.scot/id/gov/puborg/edbf2355_5ff8_49b0_8fc2_36a17afc9f4b",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
-        "IRI-based" : "ea45a966_9daa_479d_bd1f_2139f58ea731",
-        "en" : "Ullapool Harbour"
-      }
-    }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/9d248799_2588_4740_9095_7502f466884b",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "9d248799_2588_4740_9095_7502f466884b",
-        "en" : "Gardenstown Harbour"
+        "IRI-based" : "edbf2355_5ff8_49b0_8fc2_36a17afc9f4b",
+        "en" : "Port Seton Harbour"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/b37873f6_2f34_41e7_8c85_56e7143cc734",
@@ -1307,6 +1300,13 @@
       "labels" : {
         "IRI-based" : "b37873f6_2f34_41e7_8c85_56e7143cc734",
         "en" : "River Nith Navigation"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/9d248799_2588_4740_9095_7502f466884b",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "9d248799_2588_4740_9095_7502f466884b",
+        "en" : "Gardenstown Harbour"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/b66fbf4c_f0d6_4b32_abd6_1e7579fc6744",
@@ -1568,18 +1568,18 @@
       "en" : "Executive Non-Departmental Public Body"
     },
     "individuals" : [ {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/42acd0f8_1bb5_4cf0_8e37_34fc5dec6b8a",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "42acd0f8_1bb5_4cf0_8e37_34fc5dec6b8a",
-        "en" : "Sportscotland"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/74bf730b_f92f_4b09_baea_0a9fde6950bd",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "74bf730b_f92f_4b09_baea_0a9fde6950bd",
         "en" : "Highlands and Islands Enterprise"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/42acd0f8_1bb5_4cf0_8e37_34fc5dec6b8a",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "42acd0f8_1bb5_4cf0_8e37_34fc5dec6b8a",
+        "en" : "Sportscotland"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/1a84d596_69f3_458e_acf9_85949433c3ff",
@@ -1680,18 +1680,18 @@
         "en" : "Cairngorms National Park Authority"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/7432721f_6acb_4dea_8ad5_8cfeebf5ec88",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "7432721f_6acb_4dea_8ad5_8cfeebf5ec88",
-        "en" : "National Museums of Scotland"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/2854032a_26e3_454e_9972_a6687e8af4e5",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "2854032a_26e3_454e_9972_a6687e8af4e5",
         "en" : "Loch Lomond and The Trossachs National Park Authority"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/7432721f_6acb_4dea_8ad5_8cfeebf5ec88",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "7432721f_6acb_4dea_8ad5_8cfeebf5ec88",
+        "en" : "National Museums of Scotland"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/e702314e_b191_4ccb_bab5_05653cb7059c",
@@ -1801,6 +1801,13 @@
         "gd" : "Bòrd na Gàidhlig"
       }
     }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/93ceb4a4_d7dc_489d_8250_a72e4821bb92",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "93ceb4a4_d7dc_489d_8250_a72e4821bb92",
+        "en" : "Children's Hearings Scotland"
+      }
+    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/8f62e289_f31a_40af_a730_30d5decd77e0",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
@@ -1813,13 +1820,6 @@
       "labels" : {
         "IRI-based" : "ad6ac135_5913_4952_b95d_42973eac5c8f",
         "en" : "Independent Living Fund Scotland"
-      }
-    }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/93ceb4a4_d7dc_489d_8250_a72e4821bb92",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "93ceb4a4_d7dc_489d_8250_a72e4821bb92",
-        "en" : "Children's Hearings Scotland"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/5da964fa_cd9c_483f_a8ea_b6712b41267d",
@@ -1920,6 +1920,13 @@
       "en" : "Central Government Public Corporation"
     },
     "individuals" : [ {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "9ef9f538_bf27_4cf5_a850_9165efdb531d",
+        "en" : "Highlands and Islands Airports Ltd"
+      }
+    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
@@ -2029,20 +2036,6 @@
     "id" : "115",
     "superClasses" : [ "44" ]
   }, {
-    "iri" : "http://www.w3.org/ns/org#Organization",
-    "baseIri" : "http://www.w3.org/ns/org",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Organization",
-      "en" : "Organization"
-    },
-    "subClasses" : [ "4", "60", "75", "64", "10" ],
-    "comment" : {
-      "en" : "from Organization ontology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "11"
-  }, {
     "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership",
     "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
     "instances" : 0,
@@ -2051,18 +2044,18 @@
       "en" : "Regional Transport Partnership"
     },
     "individuals" : [ {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/079ab57e_1b0c_4bd5_a411_730bc2667bc6",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "079ab57e_1b0c_4bd5_a411_730bc2667bc6",
-        "en" : "South-West of Scotland Transport Partnership"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/2d56418e_fd28_4e3b_b02c_a6c430cdd66b",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "2d56418e_fd28_4e3b_b02c_a6c430cdd66b",
         "en" : "North-East of Scotland Transport Partnership"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/079ab57e_1b0c_4bd5_a411_730bc2667bc6",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "079ab57e_1b0c_4bd5_a411_730bc2667bc6",
+        "en" : "South-West of Scotland Transport Partnership"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/84a2fafa_7256_48c7_942a_6e80d9e75800",
@@ -2086,23 +2079,37 @@
         "en" : "Shetland Transport Partnership"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/2e1fd01b_d4b0_4705_aab4_6c94448afe3f",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "2e1fd01b_d4b0_4705_aab4_6c94448afe3f",
-        "en" : "Tayside and Central Scotland Transport Partnership"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/40c4c7b2_8ac1_4f22_8816_ef92965b2676",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "40c4c7b2_8ac1_4f22_8816_ef92965b2676",
         "en" : "Strathclyde Partnership for Transport"
       }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/2e1fd01b_d4b0_4705_aab4_6c94448afe3f",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "2e1fd01b_d4b0_4705_aab4_6c94448afe3f",
+        "en" : "Tayside and Central Scotland Transport Partnership"
+      }
     } ],
     "attributes" : [ "external" ],
     "id" : "102",
     "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/org#Organization",
+    "baseIri" : "http://www.w3.org/ns/org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization",
+      "en" : "Organization"
+    },
+    "subClasses" : [ "4", "60", "75", "64", "10" ],
+    "comment" : {
+      "en" : "from Organization ontology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
   }, {
     "iri" : "http://www.w3.org/ns/regorg#RegisteredOrganization",
     "baseIri" : "http://www.w3.org/ns/regorg",
@@ -2258,18 +2265,18 @@
         "en" : "Scottish Borders"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/9c6c4715_6844_48db_83a5_81bd4fed702e",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "9c6c4715_6844_48db_83a5_81bd4fed702e",
-        "en" : "Glasgow City"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/39d392dd_5aa3_4824_87ed_28ac59c8aac3",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "39d392dd_5aa3_4824_87ed_28ac59c8aac3",
         "en" : "Aberdeen City"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/9c6c4715_6844_48db_83a5_81bd4fed702e",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "9c6c4715_6844_48db_83a5_81bd4fed702e",
+        "en" : "Glasgow City"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/223b638b_25f8_419a_938d_4a140f881d6e",
@@ -2455,17 +2462,6 @@
     "id" : "75",
     "superClasses" : [ "11" ]
   }, {
-    "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority",
-    "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "PublicBroadcastingAuthority",
-      "en" : "Public Broadcasting Authority"
-    },
-    "attributes" : [ "external" ],
-    "id" : "93",
-    "superClasses" : [ "4" ]
-  }, {
     "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity",
     "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
     "instances" : 0,
@@ -2477,6 +2473,17 @@
     "attributes" : [ "external" ],
     "id" : "44",
     "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority",
+    "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicBroadcastingAuthority",
+      "en" : "Public Broadcasting Authority"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "4" ]
   }, {
     "iri" : "http://schema.org/OpeningHoursSpecification",
     "baseIri" : "http://schema.org",
@@ -2606,6 +2613,17 @@
     "id" : "123",
     "superClasses" : [ "44" ]
   }, {
+    "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/NationalJurisdiction",
+    "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NationalJurisdiction",
+      "en" : "National Jurisdiction"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "36" ]
+  }, {
     "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation",
     "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
     "instances" : 0,
@@ -2617,17 +2635,6 @@
     "attributes" : [ "external" ],
     "id" : "15",
     "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/NationalJurisdiction",
-    "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "NationalJurisdiction",
-      "en" : "National Jurisdiction"
-    },
-    "attributes" : [ "external" ],
-    "id" : "47",
-    "superClasses" : [ "36" ]
   }, {
     "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal",
     "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
@@ -2651,18 +2658,18 @@
         "en" : "Private Rented Housing Panel"
       }
     }, {
-      "iri" : "http://entities.gov.scot/id/gov/puborg/3909e22f_f8ca_4215_97c5_19e302caa718",
-      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
-      "labels" : {
-        "IRI-based" : "3909e22f_f8ca_4215_97c5_19e302caa718",
-        "en" : "Upper Tax Tribunal for Scotland"
-      }
-    }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/8295b3ce_8133_462f_afd6_7d0b5a134687",
       "baseIri" : "http://entities.gov.scot/id/gov/puborg",
       "labels" : {
         "IRI-based" : "8295b3ce_8133_462f_afd6_7d0b5a134687",
         "en" : "Mental Health Tribunal for Scotland"
+      }
+    }, {
+      "iri" : "http://entities.gov.scot/id/gov/puborg/3909e22f_f8ca_4215_97c5_19e302caa718",
+      "baseIri" : "http://entities.gov.scot/id/gov/puborg",
+      "labels" : {
+        "IRI-based" : "3909e22f_f8ca_4215_97c5_19e302caa718",
+        "en" : "Upper Tax Tribunal for Scotland"
       }
     }, {
       "iri" : "http://entities.gov.scot/id/gov/puborg/6e007bdd_9e90_4276_9fb8_f048da176039",
@@ -2979,7 +2986,7 @@
       "IRI-based" : "hasUnit"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "0"
   }, {
     "range" : "4",
@@ -2994,7 +3001,7 @@
       "IRI-based" : "implements"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "7"
   }, {
     "iri" : "http://www.w3.org/ns/org#hasSubOrganization",
@@ -3004,7 +3011,7 @@
       "IRI-based" : "hasSubOrganization"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "8"
   }, {
     "range" : "4",
@@ -3034,7 +3041,7 @@
       "IRI-based" : "subOrganizationOf"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "22"
   }, {
     "range" : "4",
@@ -3074,7 +3081,7 @@
       "IRI-based" : "memberOf"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "45"
   }, {
     "range" : "36",
@@ -3107,16 +3114,6 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
-    "iri" : "http://www.w3.org/1999/xhtml/vocab#prev",
-    "baseIri" : "http://www.w3.org/1999/xhtml/vocab",
-    "range" : "1",
-    "label" : {
-      "IRI-based" : "prev"
-    },
-    "domain" : "1",
-    "attributes" : [ "external", "object" ],
-    "id" : "56"
-  }, {
     "iri" : "http://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction",
     "baseIri" : "http://entities.gov.scot/def/gov/cpov-ap-scot",
     "range" : "1",
@@ -3133,7 +3130,17 @@
       "en" : "has function"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3.org/1999/xhtml/vocab#prev",
+    "baseIri" : "http://www.w3.org/1999/xhtml/vocab",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "prev"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
     "id" : "57"
   }, {
     "iri" : "http://www.w3.org/ns/org#unitOf",
@@ -3143,7 +3150,7 @@
       "IRI-based" : "unitOf"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "58"
   }, {
     "range" : "10",
@@ -3178,7 +3185,7 @@
       "IRI-based" : "resultingOrganization"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "69"
   }, {
     "range" : "11",
@@ -3224,7 +3231,7 @@
       "en" : "has jurisdiction"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "82"
   }, {
     "range" : "6",
@@ -3244,7 +3251,7 @@
       "IRI-based" : "hasFunction"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "87"
   }, {
     "range" : "24",
@@ -3269,7 +3276,7 @@
       "IRI-based" : "next"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "98"
   }, {
     "range" : "4",
@@ -3315,7 +3322,7 @@
       "en" : "has legal status"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "110"
   }, {
     "iri" : "http://www.w3.org/ns/org#hasMember",
@@ -3325,7 +3332,7 @@
       "IRI-based" : "hasMember"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "112"
   }, {
     "range" : "15",
@@ -3394,7 +3401,7 @@
       "IRI-based" : "originalOrganization"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "129"
   }, {
     "iri" : "http://www.w3.org/ns/org#changedBy",
@@ -3404,7 +3411,7 @@
       "IRI-based" : "changedBy"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "130"
   }, {
     "iri" : "http://data.europa.eu/m8g/hasFormalFramework",
@@ -3414,7 +3421,7 @@
       "IRI-based" : "hasFormalFramework"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "131"
   }, {
     "range" : "5",
@@ -3483,7 +3490,7 @@
       "en" : "address"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "144"
   }, {
     "iri" : "http://www.w3.org/ns/org#resultedFrom",
@@ -3494,7 +3501,7 @@
       "en" : "resulted from"
     },
     "domain" : "1",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "145"
   } ]
 }

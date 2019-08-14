@@ -182,26 +182,6 @@
   } ]
 }, {
   "@id" : "_:genid49",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB"
-    }, {
-      "@id" : "http://www.w3.org/ns/regorg#RegisteredOrganization"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"
-    }, {
-      "@id" : "_:genid7"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid52",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -214,6 +194,16 @@
       "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/SheriffCourt"
     }, {
       "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/SupremeCourt"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"
+    }, {
+      "@id" : "_:genid7"
     } ]
   } ]
 }, {
@@ -2042,7 +2032,7 @@
   } ]
 }, {
   "@id" : "http://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid49" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Highlands and Islands Airports Ltd"
