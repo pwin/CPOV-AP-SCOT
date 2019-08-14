@@ -1,0 +1,52 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:HighCourt" "base:Jurisdiction" "base:NonClassifiedEntity" "base:NHSBoard" "cv:PublicOrganisation" "base:SupremeCourt" "base:NonClassifiedGovernmentEntity" "base:SheriffAppealCourt" "base:CrownEstate" "base:ParlBody" "base:CommunityCouncil" "base:Council" "base:Executive" "base:ExpertCommittee" "base:NationalParkAuthority" "base:UtilityRegulator" "base:Regulator" "base:OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5" "base:Advisory" "base:OtherSigBody" "base:ConservationBoardAONB" "base:NDPB" "base:CentralGovernmentOrganisation" "base:OfficeOrTaskforce" "http://www.w3.org/ns/legal#LegalEntity" "regorg:RegisteredOrganization" "base:ParlCommOrOmbuds" "base:Function" "org:Organization" "org:FormalOrganization" "base:NonMarketBody" "base:CentralBank" "base:RegionalTransportPartnership" "base:LocalJurisdiction" "base:ArmsLengthBody" "base:NonMinisterialDept" "base:SheriffCourt" "base:StatutoryOfficeHolder" "base:DepartmentSpecificEntityType" "base:Court" "base:PublicBroadcastingAuthority" "base:EducationalEstablishment" "base:WorkingGroup" "base:HealthBody" "base:DevolvedAdministration" "base:MarketBody" "base:JPCourt" "base:NationalJurisdiction" "base:LocalGovernmentOrganisation" "base:Tribunal" ; /*classes style*/
+	"base:StatutoryOfficeHolder" -> "base:NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	"base:Advisory" -> "base:Function" [ label = "rdfs:subClassOf" ];
+	"base:CentralBank" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:HighCourt" -> "base:Court" [ label = "rdfs:subClassOf" ];
+	"base:PublicBroadcastingAuthority" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:ExpertCommittee" -> "base:NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	"base:RegionalTransportPartnership" -> "base:LocalGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:NonMinisterialDept" -> "base:ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	"base:OtherSigBody" -> "base:ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	"base:DevolvedAdministration" -> "base:CentralGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:CrownEstate" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/ns/legal#LegalEntity" -> "org:FormalOrganization" [ label = "rdfs:subClassOf" ];
+	"base:HealthBody" -> "base:ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	"base:CommunityCouncil" -> "base:LocalGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	"regorg:RegisteredOrganization" -> "org:FormalOrganization" [ label = "rdfs:subClassOf" ];
+	"base:ArmsLengthBody" -> "base:CentralGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:UtilityRegulator" -> "base:Regulator" [ label = "rdfs:subClassOf" ];
+	"base:SheriffAppealCourt" -> "base:Court" [ label = "rdfs:subClassOf" ];
+	"base:NationalParkAuthority" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:CentralGovernmentOrganisation" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:ParlBody" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:EducationalEstablishment" -> "org:Organization" [ label = "rdfs:subClassOf" ];
+	"base:JPCourt" -> "base:Court" [ label = "rdfs:subClassOf" ];
+	"cv:PublicOrganisation" -> "org:Organization" [ label = "rdfs:subClassOf" ];
+	"base:NonMarketBody" -> "org:Organization" [ label = "rdfs:subClassOf" ];
+	"base:ConservationBoardAONB" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:ParlCommOrOmbuds" -> "base:ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	"base:LocalGovernmentOrganisation" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:OfficeOrTaskforce" -> "base:NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	"base:DepartmentSpecificEntityType" -> "base:NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	"base:Court" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5" -> "org:Organization" [ label = "rdfs:subClassOf" ];
+	"base:Tribunal" -> "base:ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	"base:Council" -> "base:LocalGovernmentOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:SupremeCourt" -> "base:Court" [ label = "rdfs:subClassOf" ];
+	"base:NonClassifiedEntity" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:Executive" -> "base:Function" [ label = "rdfs:subClassOf" ];
+	"base:SheriffCourt" -> "base:Court" [ label = "rdfs:subClassOf" ];
+	"base:NDPB" -> "base:ArmsLengthBody" [ label = "rdfs:subClassOf" ];
+	"base:MarketBody" -> "org:Organization" [ label = "rdfs:subClassOf" ];
+	"base:NHSBoard" -> "base:HealthBody" [ label = "rdfs:subClassOf" ];
+	"base:Regulator" -> "cv:PublicOrganisation" [ label = "rdfs:subClassOf" ];
+	"base:WorkingGroup" -> "base:NonClassifiedGovernmentEntity" [ label = "rdfs:subClassOf" ];
+	"base:LocalJurisdiction" -> "base:Jurisdiction" [ label = "rdfs:subClassOf" ];
+	"base:NationalJurisdiction" -> "base:Jurisdiction" [ label = "rdfs:subClassOf" ];
+	"base:NonClassifiedGovernmentEntity" -> "base:NonClassifiedEntity" [ label = "rdfs:subClassOf" ];
+
+}
