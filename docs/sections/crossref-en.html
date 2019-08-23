@@ -1,5 +1,5 @@
-<html><h2 id="crossreference" class="list">Cross reference for Scottish Organization (Public) ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-This section provides details for each class and property defined by Scottish Organization (Public) ontology.
+<html><h2 id="crossreference" class="list">Cross reference for Scottish Organisation (public realm) ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Scottish Organisation (public realm) ontology.
 <div id="classes">
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
@@ -2012,7 +2012,7 @@ This section provides details for each class and property defined by Scottish Or
             <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c"
                title="https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c">Perth and Kinross Council</a>
             <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3"
-               title="https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3">Renfewshire Council</a>
+               title="https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3">Renfrewshire Council</a>
             <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://entities.gov.scot/id/gov/puborg/a042e3b7_cd0b_43d4_93ff_be93f50efbe2"
                title="https://entities.gov.scot/id/gov/puborg/a042e3b7_cd0b_43d4_93ff_be93f50efbe2">Scottish Borders Council</a>
             <sup class="type-ni" title="named individual">ni</sup>, <a href="#https://entities.gov.scot/id/gov/puborg/8089cafe_1747_41f9_ab2c_536f68e1e729"
@@ -2081,6 +2081,14 @@ This section provides details for each class and property defined by Scottish Or
             title="https://entities.gov.scot/def/gov/cpov-ap-scot/address">address</a>
       </li>
       <li>
+         <a href="#/administeredBy"
+            title="https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy">administeredBy</a>
+      </li>
+      <li>
+         <a href="#/administers"
+            title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+      </li>
+      <li>
          <a href="#/hasFunction"
             title="https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction">has function</a>
       </li>
@@ -2093,6 +2101,16 @@ This section provides details for each class and property defined by Scottish Or
             title="https://entities.gov.scot/def/gov/cpov-ap-scot/hasLegalStatus">has legal status</a>
       </li>
       <li>
+         <a href="#http://www.w3.org/ns/org#hasSubOrganization" title="http://www.w3.org/ns/org#hasSubOrganization">
+            <span>has sub organization</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/1999/xhtml/vocab#next" title="http://www.w3.org/1999/xhtml/vocab#next">
+            <span>next</span>
+         </a>
+      </li>
+      <li>
          <a href="#http://www.w3.org/ns/org#resultedFrom" title="http://www.w3.org/ns/org#resultedFrom">resulted from</a>
       </li>
    </ul>
@@ -2103,6 +2121,42 @@ This section provides details for each class and property defined by Scottish Or
       </h3>
       <p>
          <strong>IRI:</strong> https://entities.gov.scot/def/gov/cpov-ap-scot/address</p>
+   </div>
+   <div class="entity" id="/administeredBy">
+      <h3>administeredBy<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/administers"
+                  title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="/administers">
+      <h3>administers<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://entities.gov.scot/def/gov/cpov-ap-scot/administers</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#/administeredBy"
+                  title="https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy">administeredBy</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="/hasFunction">
       <h3>has function<sup class="type-op" title="object property">op</sup>
@@ -2128,6 +2182,40 @@ This section provides details for each class and property defined by Scottish Or
       <p>
          <strong>IRI:</strong> https://entities.gov.scot/def/gov/cpov-ap-scot/hasLegalStatus</p>
    </div>
+   <div class="entity" id="http://www.w3.org/ns/org#hasSubOrganization">
+      <h3>has sub organization<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/org#hasSubOrganization</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/ns/org#subOrganizationOf">sub organization of</span>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/1999/xhtml/vocab#next">
+      <h3>next<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/1999/xhtml/vocab#next</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/1999/xhtml/vocab#prev">prev</span>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="http://www.w3.org/ns/org#resultedFrom">
       <h3>resulted from<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -2150,499 +2238,6 @@ This section provides details for each class and property defined by Scottish Or
       </h3>
       <p>
          <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#notation</p>
-   </div>
-</div><div id="annotationproperties">
-   <h3 id="annotationproperties" class="list">Annotation Properties</h3>
-   <ul class="hlist">
-      <li>
-         <a href="#http://purl.org/dc/terms/accrualPeriodicity" title="http://purl.org/dc/terms/accrualPeriodicity">
-            <span>accrual periodicity</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2004/02/skos/core#altLabel" title="http://www.w3.org/2004/02/skos/core#altLabel">alternative label</a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/ns/dcat#contactPoint" title="http://www.w3.org/ns/dcat#contactPoint">
-            <span>contact point</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator">
-            <span>creator</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/language/default" title="http://joinup.eu/language/default">
-            <span>default</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
-            <span>description</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/solution/elibrary_creation" title="http://joinup.eu/solution/elibrary_creation">
-            <span>elibrary creation</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/hasVersion" title="http://purl.org/dc/terms/hasVersion">
-            <span>has version</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/identifier" title="http://purl.org/dc/terms/identifier">
-            <span>identifier</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://xmlns.com/foaf/0.1/Image" title="http://xmlns.com/foaf/0.1/Image">
-            <span>image</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">
-            <span>issued</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/ns/dcat#keyword" title="http://www.w3.org/ns/dcat#keyword">
-            <span>keyword</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/language" title="http://joinup.eu/language">
-            <span>language</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/language" title="http://purl.org/dc/terms/language">
-            <span>language</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/licence" title="http://purl.org/dc/terms/licence">
-            <span>licence</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/solution/moderation" title="http://joinup.eu/solution/moderation">
-            <span>moderation</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">
-            <span>modified</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/voc/policy-domain" title="http://joinup.eu/voc/policy-domain">
-            <span>policy domain</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/vocab/vann/preferredNamespacePrefix"
-            title="http://purl.org/vocab/vann/preferredNamespacePrefix">
-            <span>preferred namespace prefix</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/publisher" title="http://purl.org/dc/terms/publisher">
-            <span>publisher</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/ns/org#purpose" title="http://www.w3.org/ns/org#purpose">
-            <span>purpose</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/solution/related_by_type" title="http://joinup.eu/solution/related_by_type">
-            <span>related by type</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/rightsHolder" title="http://purl.org/dc/terms/rightsHolder">
-            <span>rights holder</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/search" title="http://joinup.eu/search">
-            <span>search</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/site-featured" title="http://joinup.eu/site-featured">
-            <span>site featured</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/site-pinned" title="http://joinup.eu/site-pinned">
-            <span>site pinned</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/ns/adms#status" title="http://www.w3.org/ns/adms#status">
-            <span>status</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/dcmitype/StillImage" title="http://purl.org/dc/dcmitype/StillImage">
-            <span>still image</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
-            <span>title</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/language/translation_author" title="http://joinup.eu/language/translation_author">
-            <span>translation author</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/language/translation_source" title="http://joinup.eu/language/translation_source">
-            <span>translation source</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/language/translation_status" title="http://joinup.eu/language/translation_status">
-            <span>translation status</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/type" title="http://purl.org/dc/terms/type">
-            <span>type</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/owner/uid" title="http://joinup.eu/owner/uid">
-            <span>uid</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/vocab/vann/usageNote" title="http://purl.org/vocab/vann/usageNote">
-            <span>usage note</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/solution/webdav_creation" title="http://joinup.eu/solution/webdav_creation">
-            <span>webdav creation</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://joinup.eu/is/workflow_status" title="http://joinup.eu/is/workflow_status">
-            <span>workflow status</span>
-         </a>
-      </li>
-   </ul>
-   <div class="entity" id="http://purl.org/dc/terms/accrualPeriodicity">
-      <h3>accrual periodicity<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/accrualPeriodicity</p>
-   </div>
-   <div class="entity" id="http://www.w3.org/2004/02/skos/core#altLabel">
-      <h3>alternative label<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#altLabel</p>
-   </div>
-   <div class="entity" id="http://www.w3.org/ns/dcat#contactPoint">
-      <h3>contact point<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/ns/dcat#contactPoint</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/creator">
-      <h3>creator<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/creator</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/language/default">
-      <h3>default<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/language/default</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/description">
-      <h3>description<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/solution/elibrary_creation">
-      <h3>elibrary creation<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/solution/elibrary_creation</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/hasVersion">
-      <h3>has version<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/hasVersion</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/identifier">
-      <h3>identifier<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/identifier</p>
-   </div>
-   <div class="entity" id="http://xmlns.com/foaf/0.1/Image">
-      <h3>image<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://xmlns.com/foaf/0.1/Image</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/issued">
-      <h3>issued<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/issued</p>
-   </div>
-   <div class="entity" id="http://www.w3.org/ns/dcat#keyword">
-      <h3>keyword<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/ns/dcat#keyword</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/language">
-      <h3>language<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/language</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/language">
-      <h3>language<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/language</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/licence">
-      <h3>licence<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/licence</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/solution/moderation">
-      <h3>moderation<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/solution/moderation</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/modified">
-      <h3>modified<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/modified</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/voc/policy-domain">
-      <h3>policy domain<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/voc/policy-domain</p>
-   </div>
-   <div class="entity" id="http://purl.org/vocab/vann/preferredNamespacePrefix">
-      <h3>preferred namespace prefix<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/vocab/vann/preferredNamespacePrefix</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/publisher">
-      <h3>publisher<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/publisher</p>
-   </div>
-   <div class="entity" id="http://www.w3.org/ns/org#purpose">
-      <h3>purpose<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/ns/org#purpose</p>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://data.europa.eu/m8g/PublicOrganisation" title="http://data.europa.eu/m8g/PublicOrganisation">PublicOrganisation</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://joinup.eu/solution/related_by_type">
-      <h3>related by type<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/solution/related_by_type</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/rightsHolder">
-      <h3>rights holder<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/rightsHolder</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/search">
-      <h3>search<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/search</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/site-featured">
-      <h3>site featured<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/site-featured</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/site-pinned">
-      <h3>site pinned<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/site-pinned</p>
-   </div>
-   <div class="entity" id="http://www.w3.org/ns/adms#status">
-      <h3>status<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/ns/adms#status</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/dcmitype/StillImage">
-      <h3>still image<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/dcmitype/StillImage</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/title">
-      <h3>title<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/title</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/language/translation_author">
-      <h3>translation author<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/language/translation_author</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/language/translation_source">
-      <h3>translation source<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/language/translation_source</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/language/translation_status">
-      <h3>translation status<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/language/translation_status</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/type">
-      <h3>type<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/type</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/owner/uid">
-      <h3>uid<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/owner/uid</p>
-   </div>
-   <div class="entity" id="http://purl.org/vocab/vann/usageNote">
-      <h3>usage note<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/vocab/vann/usageNote</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/solution/webdav_creation">
-      <h3>webdav creation<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/solution/webdav_creation</p>
-   </div>
-   <div class="entity" id="http://joinup.eu/is/workflow_status">
-      <h3>workflow status<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://joinup.eu/is/workflow_status</p>
    </div>
 </div><div id="namedindividuals">
    <h3 id="namedindividuals" class="list">Named Individuals</h3>
@@ -3276,12 +2871,12 @@ This section provides details for each class and property defined by Scottish Or
             title="https://entities.gov.scot/id/gov/puborg/dac6beff_2ca7_4c71_ba93_b68db4d1ef80">Registers of Scotland</a>
       </li>
       <li>
-         <a href="#https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3"
-            title="https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3">Renfewshire Council</a>
-      </li>
-      <li>
          <a href="#https://entities.gov.scot/id/gov/puborg/3bb0a8aa_c4ed_4e52_9384_fbe4c4a3d2df"
             title="https://entities.gov.scot/id/gov/puborg/3bb0a8aa_c4ed_4e52_9384_fbe4c4a3d2df">Renfrewshire</a>
+      </li>
+      <li>
+         <a href="#https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3"
+            title="https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3">Renfrewshire Council</a>
       </li>
       <li>
          <a href="#https://entities.gov.scot/id/gov/puborg/6e007bdd_9e90_4276_9fb8_f048da176039"
@@ -3690,6 +3285,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030421">7000000000030421</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/a636cb82_e42c_4a4b_b15f_f22dc77c1877">
@@ -3753,6 +3356,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030111">7000000000030111</span>
          </dd>
       </dl>
    </div>
@@ -3857,6 +3468,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030216">7000000000030216</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/fd6564c4_6e62_49f9_a53f_90e893de80bd">
@@ -3920,6 +3539,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030106">7000000000030106</span>
          </dd>
       </dl>
    </div>
@@ -4160,6 +3787,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030418">7000000000030418</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/285a232d_6aea_44f0_a3a3_9a779b99c19f">
@@ -4191,6 +3826,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030022">7000000000030022</span>
          </dd>
       </dl>
    </div>
@@ -4454,6 +4097,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000031903">7000000000031903</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/cffb4775_8b08_473a_a07a_feb929424c67">
@@ -4502,6 +4153,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030215">7000000000030215</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/223b638b_25f8_419a_938d_4a140f881d6e">
@@ -4533,6 +4192,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000043393">7000000000043393</span>
          </dd>
       </dl>
    </div>
@@ -4566,6 +4233,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030501">7000000000030501</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/b3b5c867_8d5b_485a_a7c9_ea719cebcbfc">
@@ -4598,6 +4273,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030509">7000000000030509</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/f5a68029_c14c_451d_8d3c_5dbb9da370e7">
@@ -4629,6 +4312,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030846">7000000000030846</span>
          </dd>
       </dl>
    </div>
@@ -4710,6 +4401,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030504">7000000000030504</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/8957aff9_0cda_4dc9_baa7_fb8e9d17a251">
@@ -4741,6 +4440,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030419">7000000000030419</span>
          </dd>
       </dl>
    </div>
@@ -4869,6 +4576,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030631">7000000000030631</span>
          </dd>
       </dl>
    </div>
@@ -5116,6 +4831,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030629">7000000000030629</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/f5fad756_de94_4113_9aa0_d928d190e2c9">
@@ -5324,6 +5047,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030634">7000000000030634</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/8bbbe5e3_c87a_41e4_9c32_022bdeda36f6">
@@ -5387,6 +5118,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000029959">7000000000029959</span>
          </dd>
       </dl>
    </div>
@@ -5820,6 +5559,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030628">7000000000030628</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/a0cd94c2_2275_4763_be5a_d079315227cd">
@@ -5867,6 +5614,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030503">7000000000030503</span>
          </dd>
       </dl>
    </div>
@@ -5977,6 +5732,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000029961">7000000000029961</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/9ecc665b_1ff0_4fab_afc7_7bdd55bc8ef6">
@@ -6040,6 +5803,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030110">7000000000030110</span>
          </dd>
       </dl>
    </div>
@@ -6171,22 +5942,6 @@ This section provides details for each class and property defined by Scottish Or
          </dd>
       </dl>
    </div>
-   <div class="entity" id="https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3">
-      <h3>Renfewshire Council<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="#/Council"
-               title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/3bb0a8aa_c4ed_4e52_9384_fbe4c4a3d2df">
       <h3>Renfrewshire<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
@@ -6200,6 +5955,30 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/IntegrationAuthority"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority">Integration Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3">
+      <h3>Renfrewshire Council<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#/Council"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030630">7000000000030630</span>
          </dd>
       </dl>
    </div>
@@ -6424,6 +6203,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000036552">7000000000036552</span>
          </dd>
       </dl>
    </div>
@@ -6949,6 +6736,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030514">7000000000030514</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/d3a602f9_695e_414a_8cd4_5ced038979f4">
@@ -7043,6 +6838,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000043391">7000000000043391</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/4c968f5c_64dc_461d_95b1_bbc5d2a8e073">
@@ -7074,6 +6877,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030847">7000000000030847</span>
          </dd>
       </dl>
    </div>
@@ -7223,6 +7034,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030502">7000000000030502</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/3a7af8e0_d527_433c_9e0e_ee50059b0457">
@@ -7333,6 +7152,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030505">7000000000030505</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/dc2747f7_7cc2_42d1_bd8b_b387eeb3ab18">
@@ -7381,6 +7208,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000029638">7000000000029638</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244">
@@ -7396,6 +7231,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/DevolvedAdministration"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/DevolvedAdministration">Devolved Administration</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000041429">7000000000041429</span>
          </dd>
       </dl>
    </div>
@@ -7569,6 +7412,14 @@ This section provides details for each class and property defined by Scottish Or
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000036549">7000000000036549</span>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="https://entities.gov.scot/id/gov/puborg/bfce3435_ecc4_46d3_957d_d07f9161872c">
@@ -7600,6 +7451,14 @@ This section provides details for each class and property defined by Scottish Or
             <a href="#/Council"
                title="https://entities.gov.scot/def/gov/cpov-ap-scot/Council">Unitary Authority</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#/administers"
+               title="https://entities.gov.scot/def/gov/cpov-ap-scot/administers">administers</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="dotted"
+                  title="http://data.ordnancesurvey.co.uk/id/7000000000030632">7000000000030632</span>
          </dd>
       </dl>
    </div>

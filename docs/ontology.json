@@ -248,6 +248,105 @@
   "@id" : "http://data.europa.eu/m8g/hasFormalFramework",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029638",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029959",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029961",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030215",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030216",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030418",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030419",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030421",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030501",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030502",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030503",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030504",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030505",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030509",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030514",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030628",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030629",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030630",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030631",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030632",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030634",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030846",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030847",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000031903",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000036549",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000036552",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000041429",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000043391",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000043393",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
   "@id" : "http://joinup.eu/is/workflow_status",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -435,7 +534,10 @@
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
 }, {
   "@id" : "http://www.w3.org/1999/xhtml/vocab#next",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/1999/xhtml/vocab#prev"
+  } ]
 }, {
   "@id" : "http://www.w3.org/1999/xhtml/vocab#prev",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
@@ -460,6 +562,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "notation"
   } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
   "http://purl.org/vocab/vann/usageNote" : [ {
@@ -525,7 +630,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "http://www.w3.org/ns/org#hasSubOrganization",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#subOrganizationOf"
+  } ]
 }, {
   "@id" : "http://www.w3.org/ns/org#hasUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
@@ -621,14 +729,14 @@
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
-    "@value" : "Organization (public) ontology - Scottish application profile"
+    "@value" : "Organisation (public realm) ontology - for Scotland and elsewhere"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "cpovapscot"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Scottish application profile for EC Core Public Organisation Vocabulary"
+    "@value" : "Scottish extension of Organisation ontology / application profile based on  EC Core Public Organisation Vocabulary and W3C Organization Vocabulary"
   }, {
     "@language" : "en",
     "@value" : "This is the ontology of the Scottish application profile of Organisations (Public)"
@@ -638,7 +746,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Scottish Organization (Public) ontology"
+    "@value" : "Scottish Organisation (public realm) ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/1/"
@@ -646,6 +754,10 @@
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
     "@value" : "Version 1 - Modified 11 July 2019 - An initial draft."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral",
+    "@value" : "<p>Based on various UK documents describing the classification of public bodies, and the <a href=\"https://ec.europa.eu/eurostat/cache/metadata/Annexes/nasa_10_f_esms_an1.pdf\">European System of Accounts (ESA) 2010</a> and the <a href=\"https://www.ons.gov.uk/methodology/classificationsandstandards/economicstatisticsclassifications/ukeconomicstatisticssectorandtransactionclassificationstheclassificationprocess\"> UK Office for National Statistics Methodology</a>\n</p>"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Advisory",
@@ -1223,6 +1335,27 @@
     "@value" : "address"
   } ]
 }, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "administeredBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/administers"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/administers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "administers"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@language" : "en",
+    "@value" : "This relates an organisation to either another organisation, or to a geographic area (e.g. the area administered by a unitary authority)"
+  } ]
+}, {
   "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
@@ -1277,6 +1410,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Stirling Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030502"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/06c72973_1d22_4fff_87ee_f5930ad71494",
@@ -1298,6 +1434,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "West Lothian Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030632"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/079ab57e_1b0c_4bd5_a411_730bc2667bc6",
@@ -1403,6 +1542,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Angus Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030216"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/1474808a_0f21_451b_a4bc_e807f140b630",
@@ -1410,6 +1552,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "East Ayrshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000043393"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/147fb4c3_9cd9_481a_9fb0_a968b6ab7932",
@@ -1438,6 +1583,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "East Renfrewshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030846"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/1715ee19_648c_4e5c_b1b6_9566a42f5c28",
@@ -1487,6 +1635,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "West Dunbartonshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000036549"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/223b638b_25f8_419a_938d_4a140f881d6e",
@@ -1536,6 +1687,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Inverclyde Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030629"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/2c771911_f5aa_423d_8e78_cbb48d448c28",
@@ -1629,6 +1783,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Falkirk Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030504"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/36bd641c_f069_4f3e_b916_3ebfa193149f",
@@ -1636,6 +1793,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Glasgow City Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030631"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/370050e0_9d69_4d09_b305_aee95201fce9",
@@ -1650,6 +1810,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Moray Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029959"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/37b59908_15a9_4bbc_9040_f1220880ad18",
@@ -1668,6 +1831,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The Highland Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029638"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/37d27d5a_a522_44d9_af79_0a14c02f09b8",
@@ -1825,6 +1991,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The Scottish Government"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000041429"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/4ceb6522_d4de_44e3_94b3_2171a145b5fa",
@@ -1860,6 +2029,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "North Lanarkshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030503"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/530a74a8_4465_4b3b_8a46_3e591effcf41",
@@ -1874,6 +2046,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Midlothian Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030634"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/537663e3_9971_4d3e_b09b_8b8a05221a3a",
@@ -1920,6 +2095,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Aberdeen City Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030421"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/57a8edbc_8216_4496_9127_dc7dbf4aa7e8",
@@ -1951,7 +2129,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Renfewshire Council"
+    "@value" : "Renfrewshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030630"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c",
@@ -1959,6 +2140,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Perth and Kinross Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030110"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/5d8d48e6_aafe_42cc_bb14_daf64e78c00f",
@@ -1997,6 +2181,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "The City of Edinburgh Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030505"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/61ae4b29_7230_42dd_90c2_dcdebd750c1c",
@@ -2014,6 +2201,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Aberdeenshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030111"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/62a8b7a7_cf73_438d_9dc6_5822c72b4aa5",
@@ -2035,6 +2225,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Dumfries and Galloway Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000031903"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/66bfe6f1_19c2_4d4b_aec6_383b89deca5b",
@@ -2189,6 +2382,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Shetland Islands Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030514"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/8160d157_2bb3_4090_8407_5689c5c16eed",
@@ -2276,6 +2472,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Comhairle nan Eilean Siar"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030022"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/90b4305a_7cdb_444d_9e3a_0729b0c2c76a",
@@ -2283,6 +2482,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Clackmannanshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030418"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/929a9546_ba45_41e5_b2dc_c16c833af8da",
@@ -2297,6 +2499,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "North Ayrshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030628"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/93ceb4a4_d7dc_489d_8250_a72e4821bb92",
@@ -2360,6 +2565,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "East Lothian Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030509"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/9d248799_2588_4740_9095_7502f466884b",
@@ -2426,6 +2634,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Scottish Borders Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000036552"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/a0a1d863_7b36_4a22_9d49_be2a544e422f",
@@ -2503,6 +2714,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "South Ayrshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000043391"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/a98302bf_51dd_4b65_b103_f3cdb88d50b2",
@@ -2608,6 +2822,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "South Lanarkshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030847"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e",
@@ -2615,6 +2832,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Dundee City Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030215"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/b7eba161_3413_4117_8914_b212ae756607",
@@ -2730,6 +2950,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "East Dunbartonshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030501"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/ce211f96_d1ec_43b2_8019_fd6317f8c913",
@@ -2834,6 +3057,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Orkney Islands Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029961"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/e260c061_06ea_42ed_bdfb_34f84bb743f8",
@@ -2911,6 +3137,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Fife Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030419"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/edbf2355_5ff8_49b0_8fc2_36a17afc9f4b",
@@ -3061,6 +3290,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Argyll and Bute Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030106"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/fedc1ef3_6266_4b25_b220_fdd91f0e2f32",
