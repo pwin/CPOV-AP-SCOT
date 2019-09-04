@@ -477,7 +477,7 @@
 
     <owl:ObjectProperty rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy">
         <owl:inverseOf rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/administers"/>
-        <rdfs:label xml:lang="en">administeredBy</rdfs:label>
+        <rdfs:label xml:lang="en">administered by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -576,7 +576,7 @@
     <owl:Class rdf:about="http://data.europa.eu/m8g/PublicOrganisation">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
         <rdfs:comment xml:lang="en">The Public Organization class represents the organization. One organization may comprise several sub-organizations and any organization may have one or more organizational units. Each of these is described using the same properties and relationships.</rdfs:comment>
-        <rdfs:label xml:lang="en">PublicOrganisation</rdfs:label>
+        <rdfs:label xml:lang="en">Public Organisation</rdfs:label>
     </owl:Class>
     
 
@@ -712,10 +712,10 @@
     
 
 
-    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB -->
+    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC -->
 
 
-    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB">
+    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -971,10 +971,10 @@
     
 
 
-    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPB -->
+    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC -->
 
 
-    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPB">
+    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1122,16 +1122,6 @@
     
 
 
-    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5 -->
-
-
-    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
-        <rdfs:label xml:lang="en">Regulated and Inspected Service Provider</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce -->
 
 
@@ -1188,6 +1178,16 @@
     <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership">
         <rdfs:subClassOf rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"/>
         <rdfs:label xml:lang="en">Regional Transport Partnership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider -->
+
+
+    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:label xml:lang="en">Regulated and Inspected Service Provider</rdfs:label>
     </owl:Class>
     
 
@@ -1951,7 +1951,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92">
-        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB"/>
+        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC"/>
         <rdfs:label xml:lang="en">David MacBrayne Ltd</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2002,7 +2002,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c">
-        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB"/>
+        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC"/>
         <rdfs:label xml:lang="en">Glasgow Prestwick Airport</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2064,7 +2064,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/d671fe7b_ce83_4d03_a584_8f725f0cc991">
-        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB"/>
+        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC"/>
         <rdfs:label xml:lang="en">Scottish Water</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2716,7 +2716,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/1bc10c00_406e_4772_91d3_762a81517727">
-        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB"/>
+        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC"/>
         <rdfs:label xml:lang="en">Caledonian Maritime Assets Ltd</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3613,7 +3613,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/65a24ace_e92c_484b_b65b_5e5bb1c95578">
-        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB"/>
+        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC"/>
         <rdfs:label xml:lang="en">Scottish Canals</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4036,7 +4036,7 @@
 
 
     <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d">
-        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB"/>
+        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC"/>
         <rdfs:label xml:lang="en">Highlands and Islands Airports Ltd</rdfs:label>
     </owl:NamedIndividual>
     

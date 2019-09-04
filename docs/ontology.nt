@@ -216,7 +216,7 @@
 # https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy
 <https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy> <http://www.w3.org/2002/07/owl#inverseOf> <https://entities.gov.scot/def/gov/cpov-ap-scot/administers> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy> <http://www.w3.org/2000/01/rdf-schema#label> "administeredBy"@en .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy> <http://www.w3.org/2000/01/rdf-schema#label> "administered by"@en .
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/administers
 <https://entities.gov.scot/def/gov/cpov-ap-scot/administers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -270,7 +270,7 @@
 <http://data.europa.eu/m8g/PublicOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://data.europa.eu/m8g/PublicOrganisation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organization> .
 <http://data.europa.eu/m8g/PublicOrganisation> <http://www.w3.org/2000/01/rdf-schema#comment> "The Public Organization class represents the organization. One organization may comprise several sub-organizations and any organization may have one or more organizational units. Each of these is described using the same properties and relationships."@en .
-<http://data.europa.eu/m8g/PublicOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "PublicOrganisation"@en .
+<http://data.europa.eu/m8g/PublicOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Public Organisation"@en .
 # 
 # http://purl.org/vocab/cpsv#FormalFramework
 <http://purl.org/vocab/cpsv#FormalFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -341,9 +341,9 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralBank> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/m8g/PublicOrganisation> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralBank> <http://www.w3.org/2000/01/rdf-schema#label> "Central Bank"@en .
 # 
-# https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB
-<https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+# https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC
+<https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
 _:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation> .
@@ -355,7 +355,7 @@ _:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/d
 _:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/MarketBody> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
 _:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation> .
@@ -367,7 +367,7 @@ _:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/
 _:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> <http://www.w3.org/2000/01/rdf-schema#label> "Central Government Public Corporation"@en .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> <http://www.w3.org/2000/01/rdf-schema#label> "Central Government Public Corporation"@en .
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -500,9 +500,9 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LegalStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LegalStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Status"@en .
 # 
-# https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPB
-<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPB> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+# https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC
+<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
 _:genid25 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid28 .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> .
@@ -514,7 +514,7 @@ _:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/
 _:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/MarketBody> .
 _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPB> <http://www.w3.org/2000/01/rdf-schema#label> "Local Government Public Corporation"@en .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC> <http://www.w3.org/2000/01/rdf-schema#label> "Local Government Public Corporation"@en .
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -588,11 +588,6 @@ _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept> <http://www.w3.org/2000/01/rdf-schema#label> "Non-Ministerial Department"@en .
 # 
-# https://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5
-<https://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organization> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5> <http://www.w3.org/2000/01/rdf-schema#label> "Regulated and Inspected Service Provider"@en .
-# 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce
 <https://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity> .
@@ -622,6 +617,11 @@ _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership> <http://www.w3.org/2000/01/rdf-schema#label> "Regional Transport Partnership"@en .
+# 
+# https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider
+<https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organization> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider> <http://www.w3.org/2000/01/rdf-schema#label> "Regulated and Inspected Service Provider"@en .
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/Regulator
 <https://entities.gov.scot/def/gov/cpov-ap-scot/Regulator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1002,7 +1002,7 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92
 <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> .
+<https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> .
 <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> <http://www.w3.org/2000/01/rdf-schema#label> "David MacBrayne Ltd"@en .
 # 
 # https://entities.gov.scot/id/gov/puborg/c93c39bb_ff1f_4d31_84e6_7b0cb03d9b8a
@@ -1028,7 +1028,7 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c
 <https://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> .
+<https://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> .
 <https://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c> <http://www.w3.org/2000/01/rdf-schema#label> "Glasgow Prestwick Airport"@en .
 # 
 # https://entities.gov.scot/id/gov/puborg/cd71a0ab_9bfa_4fcb_8809_07c1ef614c3a
@@ -1060,7 +1060,7 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/id/gov/puborg/d671fe7b_ce83_4d03_a584_8f725f0cc991
 <https://entities.gov.scot/id/gov/puborg/d671fe7b_ce83_4d03_a584_8f725f0cc991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://entities.gov.scot/id/gov/puborg/d671fe7b_ce83_4d03_a584_8f725f0cc991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> .
+<https://entities.gov.scot/id/gov/puborg/d671fe7b_ce83_4d03_a584_8f725f0cc991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> .
 <https://entities.gov.scot/id/gov/puborg/d671fe7b_ce83_4d03_a584_8f725f0cc991> <http://www.w3.org/2000/01/rdf-schema#label> "Scottish Water"@en .
 # 
 # https://entities.gov.scot/id/gov/puborg/d712f5e1_ae82_4320_9819_53e59695d59e
@@ -1393,7 +1393,7 @@ _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/id/gov/puborg/1bc10c00_406e_4772_91d3_762a81517727
 <https://entities.gov.scot/id/gov/puborg/1bc10c00_406e_4772_91d3_762a81517727> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://entities.gov.scot/id/gov/puborg/1bc10c00_406e_4772_91d3_762a81517727> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> .
+<https://entities.gov.scot/id/gov/puborg/1bc10c00_406e_4772_91d3_762a81517727> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> .
 <https://entities.gov.scot/id/gov/puborg/1bc10c00_406e_4772_91d3_762a81517727> <http://www.w3.org/2000/01/rdf-schema#label> "Caledonian Maritime Assets Ltd"@en .
 # 
 # https://entities.gov.scot/id/gov/puborg/1dbf1754_184e_4f84_8078_701b1f42e61f
@@ -1856,7 +1856,7 @@ _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/id/gov/puborg/65a24ace_e92c_484b_b65b_5e5bb1c95578
 <https://entities.gov.scot/id/gov/puborg/65a24ace_e92c_484b_b65b_5e5bb1c95578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://entities.gov.scot/id/gov/puborg/65a24ace_e92c_484b_b65b_5e5bb1c95578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> .
+<https://entities.gov.scot/id/gov/puborg/65a24ace_e92c_484b_b65b_5e5bb1c95578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> .
 <https://entities.gov.scot/id/gov/puborg/65a24ace_e92c_484b_b65b_5e5bb1c95578> <http://www.w3.org/2000/01/rdf-schema#label> "Scottish Canals"@en .
 # 
 # https://entities.gov.scot/id/gov/puborg/65aca9c3_ba5e_4287_910e_5329662b109a
@@ -2069,7 +2069,7 @@ _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d
 <https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB> .
+<https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC> .
 <https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d> <http://www.w3.org/2000/01/rdf-schema#label> "Highlands and Islands Airports Ltd"@en .
 # 
 # https://entities.gov.scot/id/gov/puborg/9fb1fb52_57ea_459f_90c6_a8440df46d7b

@@ -239,7 +239,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "PublicOrganisation"
+    "@value" : "Public Organisation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/org#Organization"
@@ -800,7 +800,7 @@
     "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
   } ]
 }, {
-  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB",
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1006,7 +1006,7 @@
     "@value" : "Legal Status"
   } ]
 }, {
-  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPB",
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1139,16 +1139,6 @@
     "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
   } ]
 }, {
-  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/OWLClass_cf9ec3da_e387_4d47_b74c_9e6f4e7e47f5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Regulated and Inspected Service Provider"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/ns/org#Organization"
-  } ]
-}, {
   "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -1207,6 +1197,16 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Regulated and Inspected Service Provider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
   } ]
 }, {
   "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Regulator",
@@ -1339,7 +1339,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "administeredBy"
+    "@value" : "administered by"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/administers"
@@ -1617,7 +1617,7 @@
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/1bc10c00_406e_4772_91d3_762a81517727",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Caledonian Maritime Assets Ltd"
@@ -2214,7 +2214,7 @@
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/65a24ace_e92c_484b_b65b_5e5bb1c95578",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Scottish Canals"
@@ -2599,7 +2599,7 @@
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Highlands and Islands Airports Ltd"
@@ -2901,7 +2901,7 @@
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "David MacBrayne Ltd"
@@ -2939,7 +2939,7 @@
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Glasgow Prestwick Airport"
@@ -2987,7 +2987,7 @@
   } ]
 }, {
   "@id" : "https://entities.gov.scot/id/gov/puborg/d671fe7b_ce83_4d03_a584_8f725f0cc991",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPB" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Scottish Water"
