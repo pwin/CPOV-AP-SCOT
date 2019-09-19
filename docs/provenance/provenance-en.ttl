@@ -4,5 +4,5 @@
 <https://entities.gov.scot/def/gov/cpov-ap-scot/1/> a prov:Entity;
 	 dc:title "Organisation (public realm) ontology - Scottish application profile";
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:wasGeneratedAt "2019-08-23";
+	 prov:wasGeneratedAt "2019-09-19";
 .

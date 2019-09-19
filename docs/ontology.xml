@@ -753,6 +753,16 @@
     
 
 
+    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/Committee -->
+
+
+    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/Committee">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:label xml:lang="en">Committee</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/CommunityCouncil -->
 
 
@@ -991,6 +1001,34 @@
     
 
 
+    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody -->
+
+
+    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction"/>
+                        <owl:someValuesFrom rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/Committee"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction"/>
+                        <owl:someValuesFrom rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/ns/org#hasMember"/>
+                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">Local Government Central Purchasing Body</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation -->
 
 
@@ -1168,6 +1206,16 @@
     <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority">
         <rdfs:subClassOf rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
         <rdfs:label xml:lang="en">Public Broadcasting Authority</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing -->
+
+
+    <owl:Class rdf:about="https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing">
+        <rdfs:subClassOf rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/Function"/>
+        <rdfs:label xml:lang="en">Purchasing</rdfs:label>
     </owl:Class>
     
 
@@ -2835,6 +2883,47 @@
     
 
 
+    <!-- https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec -->
+
+
+    <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec">
+        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/a042e3b7_cd0b_43d4_93ff_be93f50efbe2"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/a914a2cc_9b63_485c_9e58_5e41a3695001"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/b6ae570a_405f_407d_b557_f9c728869203"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/cd71a0ab_9bfa_4fcb_8809_07c1ef614c3a"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/df5cb8bd_03f8_4fca_84a5_f666a6853f8e"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/eaf6eec5_a6cc_45af_a187_65e823b00201"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/fd902804_9a40_452a_ad54_212014a3de39"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/05e705e9_6bb7_4b48_9cf3_6c0551cc4f00"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/076a09c1_d312_4c90_a4a7_96090510217d"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/1474808a_0f21_451b_a4bc_e807f140b630"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/16c389a0_0fbc_4f3c_92cc_97f7166610a9"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/21bfd213_571b_4cdb_b553_de45f8a8c44d"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/299e8b90_74d8_4e66_b32b_76fc0d13e95c"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/36bd641c_f069_4f3e_b916_3ebfa193149f"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/365df7dc_48f0_4c18_a4ad_f7178fd63aef"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/37bd03c5_6032_483c_96da_16ab6076b1bc"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/375c5472_4c42_4526_9cc8_f40b5738bb5d"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/51c5b32a_cff2_43d4_a892_85e7bd1a81d0"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/534ffd70_6cd8_4a7c_b8e1_55de7b1fa8f5"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/56e7a6ba_b148_465d_88f5_1c563f8372d6"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/614945b1_4185_4068_bc0c_b8774d96801b"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/62229ac3_977c_4d68_bd6d_1a38bd29f337"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/65aca9c3_ba5e_4287_910e_5329662b109a"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/8089cafe_1747_41f9_ab2c_536f68e1e729"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/9cdb3a89_3cc2_472a_981e_32169a515b98"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/90b4305a_7cdb_444d_9e3a_0729b0c2c76a"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/92dbd8e1_9e59_448a_8e91_2d681dbc2901"/>
+        <rdfs:label xml:lang="en">Scotland Excel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://entities.gov.scot/id/gov/puborg/2c771911_f5aa_423d_8e78_cbb48d448c28 -->
 
 
@@ -2904,6 +2993,19 @@
     <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/2f6b185e_266c_4548_b9d1_2f83266ef0ee">
         <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard"/>
         <rdfs:label xml:lang="en">NHS Shetland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570 -->
+
+
+    <owl:NamedIndividual rdf:about="https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570">
+        <rdf:type rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca"/>
+        <org:hasMember rdf:resource="https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c"/>
+        <rdfs:label xml:lang="en">Tayside Contracts</rdfs:label>
     </owl:NamedIndividual>
     
 

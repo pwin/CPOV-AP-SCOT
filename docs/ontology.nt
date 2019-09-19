@@ -374,6 +374,11 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/m8g/PublicOrganisation> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Central Government Organisation"@en .
 # 
+# https://entities.gov.scot/def/gov/cpov-ap-scot/Committee
+<https://entities.gov.scot/def/gov/cpov-ap-scot/Committee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/Committee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organization> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/Committee> <http://www.w3.org/2000/01/rdf-schema#label> "Committee"@en .
+# 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/CommunityCouncil
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CommunityCouncil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CommunityCouncil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> .
@@ -516,6 +521,34 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC> <http://www.w3.org/2000/01/rdf-schema#label> "Local Government Public Corporation"@en .
 # 
+# https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody
+<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction> .
+_:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/Committee> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction> .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/org#hasMember> .
+_:genid31 <http://www.w3.org/2002/07/owl#minCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody> <http://www.w3.org/2000/01/rdf-schema#label> "Local Government Central Purchasing Body"@en .
+# 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/m8g/PublicOrganisation> .
@@ -523,18 +556,18 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
-_:genid29 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid32 .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#Organization> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction> .
-_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#Organization> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction> .
+_:genid39 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust> <http://www.w3.org/2000/01/rdf-schema#label> "Local Harbour Trust"@en .
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction
@@ -613,6 +646,11 @@ _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.europa.eu/m8g/PublicOrganisation> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "Public Broadcasting Authority"@en .
 # 
+# https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing
+<https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://entities.gov.scot/def/gov/cpov-ap-scot/Function> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing> <http://www.w3.org/2000/01/rdf-schema#label> "Purchasing"@en .
+# 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership
 <https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> .
@@ -640,18 +678,18 @@ _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard
 <https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid33 .
-_:genid33 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid36 .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/NHSBoard> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction> .
-_:genid35 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/NationalJurisdiction> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/NHSBoard> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction> .
+_:genid43 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/NationalJurisdiction> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard> <http://www.w3.org/2000/01/rdf-schema#label> "Special NHS Board"@en .
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialPurposeVehicle
@@ -673,18 +711,18 @@ _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard
 <https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid37 .
-_:genid37 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid40 .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/NHSBoard> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction> .
-_:genid39 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/NHSBoard> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction> .
+_:genid47 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard> <http://www.w3.org/2000/01/rdf-schema#label> "Territorial NHS Board"@en .
 # 
 # https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal
@@ -1298,15 +1336,15 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e
 <https://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid41 .
-_:genid41 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid43 .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB> .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e> <http://www.w3.org/2000/01/rdf-schema#label> "The Skills Development Scotland Co. Limited"@en .
 <https://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e> <http://www.w3.org/2004/02/skos/core#altLabel> "Skills Development Scotland"@en .
 # 
@@ -1454,6 +1492,42 @@ _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://entities.gov.scot/id/gov/puborg/1766a2a7_a963_4e42_a1d0_6f3c1a5cdcc5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard> .
 <https://entities.gov.scot/id/gov/puborg/1766a2a7_a963_4e42_a1d0_6f3c1a5cdcc5> <http://www.w3.org/2000/01/rdf-schema#label> "NHS Ayrshire & Arran"@en .
 # 
+# https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/a042e3b7_cd0b_43d4_93ff_be93f50efbe2> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/a914a2cc_9b63_485c_9e58_5e41a3695001> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/b6ae570a_405f_407d_b557_f9c728869203> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/cd71a0ab_9bfa_4fcb_8809_07c1ef614c3a> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/df5cb8bd_03f8_4fca_84a5_f666a6853f8e> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/eaf6eec5_a6cc_45af_a187_65e823b00201> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/fd902804_9a40_452a_ad54_212014a3de39> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/05e705e9_6bb7_4b48_9cf3_6c0551cc4f00> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/076a09c1_d312_4c90_a4a7_96090510217d> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/1474808a_0f21_451b_a4bc_e807f140b630> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/16c389a0_0fbc_4f3c_92cc_97f7166610a9> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/21bfd213_571b_4cdb_b553_de45f8a8c44d> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/299e8b90_74d8_4e66_b32b_76fc0d13e95c> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/36bd641c_f069_4f3e_b916_3ebfa193149f> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/365df7dc_48f0_4c18_a4ad_f7178fd63aef> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/37bd03c5_6032_483c_96da_16ab6076b1bc> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/375c5472_4c42_4526_9cc8_f40b5738bb5d> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/51c5b32a_cff2_43d4_a892_85e7bd1a81d0> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/534ffd70_6cd8_4a7c_b8e1_55de7b1fa8f5> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/56e7a6ba_b148_465d_88f5_1c563f8372d6> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/614945b1_4185_4068_bc0c_b8774d96801b> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/62229ac3_977c_4d68_bd6d_1a38bd29f337> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/65aca9c3_ba5e_4287_910e_5329662b109a> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/8089cafe_1747_41f9_ab2c_536f68e1e729> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/9cdb3a89_3cc2_472a_981e_32169a515b98> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/90b4305a_7cdb_444d_9e3a_0729b0c2c76a> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/92dbd8e1_9e59_448a_8e91_2d681dbc2901> .
+<https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> <http://www.w3.org/2000/01/rdf-schema#label> "Scotland Excel"@en .
+# 
 # https://entities.gov.scot/id/gov/puborg/2c771911_f5aa_423d_8e78_cbb48d448c28
 <https://entities.gov.scot/id/gov/puborg/2c771911_f5aa_423d_8e78_cbb48d448c28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://entities.gov.scot/id/gov/puborg/2c771911_f5aa_423d_8e78_cbb48d448c28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB> .
@@ -1491,6 +1565,14 @@ _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://entities.gov.scot/id/gov/puborg/2f6b185e_266c_4548_b9d1_2f83266ef0ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://entities.gov.scot/id/gov/puborg/2f6b185e_266c_4548_b9d1_2f83266ef0ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard> .
 <https://entities.gov.scot/id/gov/puborg/2f6b185e_266c_4548_b9d1_2f83266ef0ee> <http://www.w3.org/2000/01/rdf-schema#label> "NHS Shetland"@en .
+# 
+# https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570
+<https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody> .
+<https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e> .
+<https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca> .
+<https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570> <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c> .
+<https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570> <http://www.w3.org/2000/01/rdf-schema#label> "Tayside Contracts"@en .
 # 
 # https://entities.gov.scot/id/gov/puborg/21bfd213_571b_4cdb_b553_de45f8a8c44d
 <https://entities.gov.scot/id/gov/puborg/21bfd213_571b_4cdb_b553_de45f8a8c44d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1656,15 +1738,15 @@ _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://entities.gov.scot/id/gov/puborg/4d42286f_6802_4b34_b357_43b1be2b2814
 <https://entities.gov.scot/id/gov/puborg/4d42286f_6802_4b34_b357_43b1be2b2814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://entities.gov.scot/id/gov/puborg/4d42286f_6802_4b34_b357_43b1be2b2814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid44 .
-_:genid44 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid46 .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://entities.gov.scot/id/gov/puborg/4d42286f_6802_4b34_b357_43b1be2b2814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://entities.gov.scot/id/gov/puborg/4d42286f_6802_4b34_b357_43b1be2b2814> <http://www.w3.org/2000/01/rdf-schema#label> "Scottish Futures Trust Ltd"@en .
 # 
 # https://entities.gov.scot/id/gov/puborg/4fb51bb8_b7c8_4963_8d10_c1e968092f2f
@@ -2171,22 +2253,22 @@ _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid47 <http://www.w3.org/2002/07/owl#members> _:genid52 .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/HighCourt> .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/JPCourt> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffAppealCourt> .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffCourt> .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/SupremeCourt> .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid55 <http://www.w3.org/2002/07/owl#members> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/HighCourt> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/JPCourt> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffAppealCourt> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffCourt> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://entities.gov.scot/def/gov/cpov-ap-scot/SupremeCourt> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
