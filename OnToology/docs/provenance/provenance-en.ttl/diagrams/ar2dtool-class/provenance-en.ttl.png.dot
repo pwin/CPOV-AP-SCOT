@@ -1,0 +1,7 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"https://entities.gov.scot/def/gov/cpov-ap-scot/1/" -> "http://www.essepuntato.it/lode/" [ label = "prov:wasAttributedTo" ];
+	"https://entities.gov.scot/def/gov/cpov-ap-scot/1/" -> "https://github.com/dgarijo/Widoco/" [ label = "prov:wasAttributedTo" ];
+
+}
