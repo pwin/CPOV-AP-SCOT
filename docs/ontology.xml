@@ -36,7 +36,7 @@
         <rdfs:comment xml:lang="en">This is the ontology of the Scottish application profile of Organisations (Public)</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://entities.gov.scot/def/gov/cpov-ap-scot/"/>
         <rdfs:label xml:lang="en">Scottish Organisation (public realm) ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 1 - Modified 11 July 2019 - An initial draft.</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version 1o - Modified 13 October 2019 - An initial draft.</owl:versionInfo>
         <skos:note rdf:parseType="Literal"><p>Based on various UK documents describing the classification of public bodies, and the <a href="https://ec.europa.eu/eurostat/cache/metadata/Annexes/nasa_10_f_esms_an1.pdf">European System of Accounts (ESA) 2010</a> and the <a href="https://www.ons.gov.uk/methodology/classificationsandstandards/economicstatisticsclassifications/ukeconomicstatisticssectorandtransactionclassificationstheclassificationprocess"> UK Office for National Statistics Methodology</a>
 </p></skos:note>
     </owl:Ontology>

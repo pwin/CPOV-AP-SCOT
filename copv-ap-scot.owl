@@ -1,15 +1,8 @@
 @prefix : <http://entities.gov.scot/def/gov/cpov-ap-scot/> .
-@prefix cv: <http://data.europa.eu/m8g/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix id: <http://entities.gov.scot/id/gov/puborg/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -21,21 +14,21 @@
 
 <https://entities.gov.scot/def/gov/cpov-ap-scot> rdf:type owl:Ontology ;
                                                   owl:versionIRI <https://entities.gov.scot/def/gov/cpov-ap-scot/1/> ;
-                                                  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-                                                  dct:creator <https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244> ;
-                                                  dct:description "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organisations (public), including the organisation of the sub-organisations. It is in draft form."@en ;
-                                                  dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
-                                                  dct:licence <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> ;
-                                                  dct:modified "2019-04-29"^^xsd:date ;
-                                                  dct:publisher <https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244> ;
-                                                  dct:rightsHolder <https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244> ;
-                                                  dct:title "Organisation (public realm) ontology - for Scotland and elsewhere"@en ;
+                                                  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+                                                  <http://purl.org/dc/terms/creator> <https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244> ;
+                                                  <http://purl.org/dc/terms/description> "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organisations (public), including the organisation of the sub-organisations. It is in draft form."@en ;
+                                                  <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> ;
+                                                  <http://purl.org/dc/terms/licence> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> ;
+                                                  <http://purl.org/dc/terms/modified> "2019-04-29"^^xsd:date ;
+                                                  <http://purl.org/dc/terms/publisher> <https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244> ;
+                                                  <http://purl.org/dc/terms/rightsHolder> <https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244> ;
+                                                  <http://purl.org/dc/terms/title> "Organisation (public realm) ontology - for Scotland and elsewhere"@en ;
                                                   vann:preferredNamespacePrefix "cpovapscot" ;
                                                   rdfs:comment "Scottish extension of Organisation ontology / application profile based on  EC Core Public Organisation Vocabulary and W3C Organization Vocabulary"@en ,
                                                                "This is the ontology of the Scottish application profile of Organisations (Public)"@en ;
                                                   rdfs:isDefinedBy <https://entities.gov.scot/def/gov/cpov-ap-scot/> ;
                                                   rdfs:label "Scottish Organisation (public realm) ontology"@en ;
-                                                  owl:versionInfo "Version 1 - Modified 11 July 2019 - An initial draft."@en ;
+                                                  owl:versionInfo "Version 1o - Modified 13 October 2019 - An initial draft."@en ;
                                                   skos:note """<p>Based on various UK documents describing the classification of public bodies, and the <a href=\"https://ec.europa.eu/eurostat/cache/metadata/Annexes/nasa_10_f_esms_an1.pdf\">European System of Accounts (ESA) 2010</a> and the <a href=\"https://www.ons.gov.uk/methodology/classificationsandstandards/economicstatisticsclassifications/ukeconomicstatisticssectorandtransactionclassificationstheclassificationprocess\"> UK Office for National Statistics Methodology</a>
 </p>"""^^rdf:XMLLiteral .
 
@@ -108,55 +101,55 @@
 
 
 ###  http://purl.org/dc/terms/accrualPeriodicity
-dct:accrualPeriodicity rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/accrualPeriodicity> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/creator
-dct:creator rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/description
-dct:description rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/hasVersion
-dct:hasVersion rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/hasVersion> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/identifier
-dct:identifier rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/identifier> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/issued
-dct:issued rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/language
-dct:language rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/language> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/licence
-dct:licence rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/licence> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/modified
-dct:modified rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/publisher
-dct:publisher rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/rightsHolder
-dct:rightsHolder rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/rightsHolder> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/title
-dct:title rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/type
-dct:type rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/type> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix
@@ -182,16 +175,16 @@ skos:note rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/dcat#contactPoint
-dcat:contactPoint rdf:type owl:AnnotationProperty .
+<http://www.w3.org/ns/dcat#contactPoint> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/dcat#keyword
-dcat:keyword rdf:type owl:AnnotationProperty .
+<http://www.w3.org/ns/dcat#keyword> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/org#purpose
-org:purpose rdf:type owl:AnnotationProperty ;
-            rdfs:domain cv:PublicOrganisation .
+<http://www.w3.org/ns/org#purpose> rdf:type owl:AnnotationProperty ;
+                                   rdfs:domain <http://data.europa.eu/m8g/PublicOrganisation> .
 
 
 #################################################################
@@ -207,7 +200,7 @@ rdf:Literal rdf:type rdfs:Datatype .
 #################################################################
 
 ###  http://data.europa.eu/m8g/hasFormalFramework
-cv:hasFormalFramework rdf:type owl:ObjectProperty .
+<http://data.europa.eu/m8g/hasFormalFramework> rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.org/vocab/cpsv#implements
@@ -224,45 +217,45 @@ cv:hasFormalFramework rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/org#changedBy
-org:changedBy rdf:type owl:ObjectProperty .
+<http://www.w3.org/ns/org#changedBy> rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/org#hasMember
-org:hasMember rdf:type owl:ObjectProperty .
+<http://www.w3.org/ns/org#hasMember> rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/org#hasSubOrganization
-org:hasSubOrganization rdf:type owl:ObjectProperty ;
-                       owl:inverseOf org:subOrganizationOf .
+<http://www.w3.org/ns/org#hasSubOrganization> rdf:type owl:ObjectProperty ;
+                                              owl:inverseOf <http://www.w3.org/ns/org#subOrganizationOf> .
 
 
 ###  http://www.w3.org/ns/org#hasUnit
-org:hasUnit rdf:type owl:ObjectProperty .
+<http://www.w3.org/ns/org#hasUnit> rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/org#memberOf
-org:memberOf rdf:type owl:ObjectProperty .
+<http://www.w3.org/ns/org#memberOf> rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/org#originalOrganization
-org:originalOrganization rdf:type owl:ObjectProperty .
+<http://www.w3.org/ns/org#originalOrganization> rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/org#resultedFrom
-org:resultedFrom rdf:type owl:ObjectProperty ;
-                 rdfs:label "resulted from"@en .
+<http://www.w3.org/ns/org#resultedFrom> rdf:type owl:ObjectProperty ;
+                                        rdfs:label "resulted from"@en .
 
 
 ###  http://www.w3.org/ns/org#resultingOrganization
-org:resultingOrganization rdf:type owl:ObjectProperty .
+<http://www.w3.org/ns/org#resultingOrganization> rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/org#subOrganizationOf
-org:subOrganizationOf rdf:type owl:ObjectProperty .
+<http://www.w3.org/ns/org#subOrganizationOf> rdf:type owl:ObjectProperty .
 
 
 ###  http://www.w3.org/ns/org#unitOf
-org:unitOf rdf:type owl:ObjectProperty .
+<http://www.w3.org/ns/org#unitOf> rdf:type owl:ObjectProperty .
 
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/address
@@ -318,15 +311,15 @@ skos:notation rdf:type owl:DatatypeProperty ;
 #################################################################
 
 ###  http://data.europa.eu/m8g/FoundationEvent
-cv:FoundationEvent rdf:type owl:Class ;
-                   owl:disjointWith org:ChangeEvent .
+<http://data.europa.eu/m8g/FoundationEvent> rdf:type owl:Class ;
+                                            owl:disjointWith <http://www.w3.org/ns/org#ChangeEvent> .
 
 
 ###  http://data.europa.eu/m8g/PublicOrganisation
-cv:PublicOrganisation rdf:type owl:Class ;
-                      rdfs:subClassOf org:Organization ;
-                      rdfs:comment "The Public Organization class represents the organization. One organization may comprise several sub-organizations and any organization may have one or more organizational units. Each of these is described using the same properties and relationships."@en ;
-                      rdfs:label "Public Organisation"@en .
+<http://data.europa.eu/m8g/PublicOrganisation> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.w3.org/ns/org#Organization> ;
+                                               rdfs:comment "The Public Organization class represents the organization. One organization may comprise several sub-organizations and any organization may have one or more organizational units. Each of these is described using the same properties and relationships."@en ;
+                                               rdfs:label "Public Organisation"@en .
 
 
 ###  http://purl.org/vocab/cpsv#FormalFramework
@@ -345,8 +338,8 @@ schema:OpeningHoursSpecification rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/legal#LegalEntity
 <http://www.w3.org/ns/legal#LegalEntity> rdf:type owl:Class ;
-                                         rdfs:subClassOf org:FormalOrganization ;
-                                         dct:identifier "legal:LegalEntity"@en ;
+                                         rdfs:subClassOf <http://www.w3.org/ns/org#FormalOrganization> ;
+                                         <http://purl.org/dc/terms/identifier> "legal:LegalEntity"@en ;
                                          rdfs:comment """This is the key class for the Business Core Vocabulary and represents a 
     business that is legally registered. In many countries there is a single registry although in others, 
     such as Spain and Germany, multiple registries exist. A Legal Entity is able to trade, is 
@@ -357,23 +350,23 @@ schema:OpeningHoursSpecification rdf:type owl:Class ;
 
 
 ###  http://www.w3.org/ns/org#ChangeEvent
-org:ChangeEvent rdf:type owl:Class .
+<http://www.w3.org/ns/org#ChangeEvent> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/ns/org#FormalOrganization
-org:FormalOrganization rdf:type owl:Class .
+<http://www.w3.org/ns/org#FormalOrganization> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/ns/org#Organization
-org:Organization rdf:type owl:Class ;
-                 rdfs:comment "from Organization ontology"@en ;
-                 rdfs:label "Organization"@en .
+<http://www.w3.org/ns/org#Organization> rdf:type owl:Class ;
+                                        rdfs:comment "from Organization ontology"@en ;
+                                        rdfs:label "Organization"@en .
 
 
 ###  http://www.w3.org/ns/regorg#RegisteredOrganization
 regorg:RegisteredOrganization rdf:type owl:Class ;
-                              rdfs:subClassOf org:FormalOrganization ;
-                              dct:identifier "rov:RegisteredOrganization" ;
+                              rdfs:subClassOf <http://www.w3.org/ns/org#FormalOrganization> ;
+                              <http://purl.org/dc/terms/identifier> "rov:RegisteredOrganization" ;
                               rdfs:comment """rov:RegisteredOrganization is the key class for the Registered Organization vocabulary and represents an organization that is legally registered. In many countries there is a single registry although in others, such as Spain and Germany, multiple registries exist. A Registered Organization is able to trade, is legally liable for its actions, accounts, tax affairs etc. Legal entity status is conferred by the act of registration cf. org:FormalOrganization that applies to any legal entity, including those created by other legal means.
     This makes registered organizations distinct from the broader concept of organizations, groups or, in some jurisdictions, sole traders. Many organizations exist that are not legal entities yet to the outside world they have staff, hierarchies, locations etc. Other organizations exist that are an umbrella for several legal entities (universities are often good examples of this). This vocabulary is concerned solely with registered organizations.
     In RDF, Registered Organization is a sub class of the Organization Ontology's org:FormalOrganization which is itself a sub class of the more general 'Agent' class found in FOAF and Dublin Core that does encompass organizations, natural persons, groups etc. - i.e. an Agent is any entity that is able to carry out actions."""^^rdf:Literal ;
@@ -408,7 +401,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/CentralBank
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralBank> rdf:type owl:Class ;
-                                                             rdfs:subClassOf cv:PublicOrganisation ;
+                                                             rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                              rdfs:label "Central Bank"@en .
 
 
@@ -435,13 +428,13 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation> rdf:type owl:Class ;
-                                                                               rdfs:subClassOf cv:PublicOrganisation ;
+                                                                               rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                                                rdfs:label "Central Government Organisation"@en .
 
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/Committee
 <https://entities.gov.scot/def/gov/cpov-ap-scot/Committee> rdf:type owl:Class ;
-                                                           rdfs:subClassOf org:Organization ;
+                                                           rdfs:subClassOf <http://www.w3.org/ns/org#Organization> ;
                                                            rdfs:label "Committee"@en .
 
 
@@ -453,7 +446,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/ConservationBoardAONB
 <https://entities.gov.scot/def/gov/cpov-ap-scot/ConservationBoardAONB> rdf:type owl:Class ;
-                                                                       rdfs:subClassOf cv:PublicOrganisation ;
+                                                                       rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                                        rdfs:label "Conservation Board for Area of Outstanding Natural Beauty"@en .
 
 
@@ -466,13 +459,13 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/Court
 <https://entities.gov.scot/def/gov/cpov-ap-scot/Court> rdf:type owl:Class ;
-                                                       rdfs:subClassOf cv:PublicOrganisation ;
+                                                       rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                        rdfs:label "Court"@en .
 
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/CrownEstate
 <https://entities.gov.scot/def/gov/cpov-ap-scot/CrownEstate> rdf:type owl:Class ;
-                                                             rdfs:subClassOf cv:PublicOrganisation ;
+                                                             rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                              rdfs:label "Crown Estate"@en .
 
 
@@ -490,7 +483,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/EducationalEstablishment
 <https://entities.gov.scot/def/gov/cpov-ap-scot/EducationalEstablishment> rdf:type owl:Class ;
-                                                                          rdfs:subClassOf org:Organization ;
+                                                                          rdfs:subClassOf <http://www.w3.org/ns/org#Organization> ;
                                                                           rdfs:label "Educational Establishment"@en .
 
 
@@ -603,7 +596,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
                                                                                                                                    owl:someValuesFrom <https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing>
                                                                                                                                  ]
                                                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                                                   owl:onProperty org:hasMember ;
+                                                                                                                                   owl:onProperty <http://www.w3.org/ns/org#hasMember> ;
                                                                                                                                    owl:minCardinality "2"^^xsd:nonNegativeInteger
                                                                                                                                  ]
                                                                                                                                ) ;
@@ -614,13 +607,13 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation> rdf:type owl:Class ;
-                                                                             rdfs:subClassOf cv:PublicOrganisation ;
+                                                                             rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                                              rdfs:label "Local Government Organisation"@en .
 
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust
 <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust> rdf:type owl:Class ;
-                                                                   owl:equivalentClass [ owl:intersectionOf ( org:Organization
+                                                                   owl:equivalentClass [ owl:intersectionOf ( <http://www.w3.org/ns/org#Organization>
                                                                                                               [ rdf:type owl:Restriction ;
                                                                                                                 owl:onProperty <https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction> ;
                                                                                                                 owl:someValuesFrom <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction>
@@ -639,7 +632,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/MarketBody
 <https://entities.gov.scot/def/gov/cpov-ap-scot/MarketBody> rdf:type owl:Class ;
-                                                            rdfs:subClassOf org:Organization ;
+                                                            rdfs:subClassOf <http://www.w3.org/ns/org#Organization> ;
                                                             owl:disjointWith <https://entities.gov.scot/def/gov/cpov-ap-scot/NonMarketBody> ;
                                                             rdfs:label "Market Body"@en .
 
@@ -664,13 +657,13 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority
 <https://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority> rdf:type owl:Class ;
-                                                                       rdfs:subClassOf cv:PublicOrganisation ;
+                                                                       rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                                        rdfs:label "National Park Authority"@en .
 
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedEntity
 <https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedEntity> rdf:type owl:Class ;
-                                                                     rdfs:subClassOf cv:PublicOrganisation ;
+                                                                     rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                                      rdfs:label "Non-Classified Entity"@en .
 
 
@@ -682,7 +675,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/NonMarketBody
 <https://entities.gov.scot/def/gov/cpov-ap-scot/NonMarketBody> rdf:type owl:Class ;
-                                                               rdfs:subClassOf org:Organization ;
+                                                               rdfs:subClassOf <http://www.w3.org/ns/org#Organization> ;
                                                                rdfs:label "Non-Market Body"@en .
 
 
@@ -706,7 +699,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody
 <https://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody> rdf:type owl:Class ;
-                                                          rdfs:subClassOf cv:PublicOrganisation ;
+                                                          rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                           rdfs:label "Parliamentary Body"@en .
 
 
@@ -718,7 +711,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority
 <https://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority> rdf:type owl:Class ;
-                                                                             rdfs:subClassOf cv:PublicOrganisation ;
+                                                                             rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                                              rdfs:label "Public Broadcasting Authority"@en .
 
 
@@ -736,13 +729,13 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider
 <https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider> rdf:type owl:Class ;
-                                                                                   rdfs:subClassOf org:Organization ;
+                                                                                   rdfs:subClassOf <http://www.w3.org/ns/org#Organization> ;
                                                                                    rdfs:label "Regulated and Inspected Service Provider"@en .
 
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/Regulator
 <https://entities.gov.scot/def/gov/cpov-ap-scot/Regulator> rdf:type owl:Class ;
-                                                           rdfs:subClassOf cv:PublicOrganisation ;
+                                                           rdfs:subClassOf <http://data.europa.eu/m8g/PublicOrganisation> ;
                                                            rdfs:label "Regulator"@en .
 
 
@@ -773,7 +766,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 
 ###  https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialPurposeVehicle
 <https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialPurposeVehicle> rdf:type owl:Class ;
-                                                                       rdfs:subClassOf org:Organization ;
+                                                                       rdfs:subClassOf <http://www.w3.org/ns/org#Organization> ;
                                                                        rdfs:label "Special Purpose Vehicle"@en ;
                                                                        skos:altLabel "Financial Vehicle Corporation" ,
                                                                                      "Special Purpose Entity" .
@@ -1213,7 +1206,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 ###  https://entities.gov.scot/id/gov/puborg/cb0ef81c_815e_4351_8696_a8ea67c94254
 <https://entities.gov.scot/id/gov/puborg/cb0ef81c_815e_4351_8696_a8ea67c94254> rdf:type owl:NamedIndividual ,
                                                                                         regorg:RegisteredOrganization ;
-                                                                               org:subOrganizationOf <https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d> ;
+                                                                               <http://www.w3.org/ns/org#subOrganizationOf> <https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d> ;
                                                                                rdfs:label "Airport Management Services Limited (s H&IE)"@en .
 
 
@@ -1445,7 +1438,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 ###  https://entities.gov.scot/id/gov/puborg/f7937f9c_90e3_4063_85b3_f36d4398391d
 <https://entities.gov.scot/id/gov/puborg/f7937f9c_90e3_4063_85b3_f36d4398391d> rdf:type owl:NamedIndividual ,
                                                                                         regorg:RegisteredOrganization ;
-                                                                               org:subOrganizationOf <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> ;
+                                                                               <http://www.w3.org/ns/org#subOrganizationOf> <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> ;
                                                                                rdfs:label "Northlink Ferries Ltd"@en .
 
 
@@ -1726,37 +1719,37 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 ###  https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec
 <https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec> rdf:type owl:NamedIndividual ,
                                                                                         <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody> ;
-                                                                               org:hasMember <https://entities.gov.scot/id/gov/puborg/a042e3b7_cd0b_43d4_93ff_be93f50efbe2> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/a914a2cc_9b63_485c_9e58_5e41a3695001> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/b6ae570a_405f_407d_b557_f9c728869203> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/cd71a0ab_9bfa_4fcb_8809_07c1ef614c3a> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/df5cb8bd_03f8_4fca_84a5_f666a6853f8e> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/eaf6eec5_a6cc_45af_a187_65e823b00201> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/fd902804_9a40_452a_ad54_212014a3de39> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/05e705e9_6bb7_4b48_9cf3_6c0551cc4f00> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/076a09c1_d312_4c90_a4a7_96090510217d> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/1474808a_0f21_451b_a4bc_e807f140b630> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/16c389a0_0fbc_4f3c_92cc_97f7166610a9> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/21bfd213_571b_4cdb_b553_de45f8a8c44d> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/299e8b90_74d8_4e66_b32b_76fc0d13e95c> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/36bd641c_f069_4f3e_b916_3ebfa193149f> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/365df7dc_48f0_4c18_a4ad_f7178fd63aef> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/37bd03c5_6032_483c_96da_16ab6076b1bc> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/375c5472_4c42_4526_9cc8_f40b5738bb5d> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/51c5b32a_cff2_43d4_a892_85e7bd1a81d0> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/534ffd70_6cd8_4a7c_b8e1_55de7b1fa8f5> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/56e7a6ba_b148_465d_88f5_1c563f8372d6> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/614945b1_4185_4068_bc0c_b8774d96801b> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/62229ac3_977c_4d68_bd6d_1a38bd29f337> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/65aca9c3_ba5e_4287_910e_5329662b109a> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/8089cafe_1747_41f9_ab2c_536f68e1e729> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/9cdb3a89_3cc2_472a_981e_32169a515b98> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/90b4305a_7cdb_444d_9e3a_0729b0c2c76a> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/92dbd8e1_9e59_448a_8e91_2d681dbc2901> ;
+                                                                               <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/a042e3b7_cd0b_43d4_93ff_be93f50efbe2> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/a914a2cc_9b63_485c_9e58_5e41a3695001> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/b6ae570a_405f_407d_b557_f9c728869203> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/cd71a0ab_9bfa_4fcb_8809_07c1ef614c3a> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/df5cb8bd_03f8_4fca_84a5_f666a6853f8e> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/eaf6eec5_a6cc_45af_a187_65e823b00201> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/fd902804_9a40_452a_ad54_212014a3de39> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/05e705e9_6bb7_4b48_9cf3_6c0551cc4f00> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/076a09c1_d312_4c90_a4a7_96090510217d> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/1474808a_0f21_451b_a4bc_e807f140b630> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/16c389a0_0fbc_4f3c_92cc_97f7166610a9> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/21bfd213_571b_4cdb_b553_de45f8a8c44d> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/299e8b90_74d8_4e66_b32b_76fc0d13e95c> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/36bd641c_f069_4f3e_b916_3ebfa193149f> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/365df7dc_48f0_4c18_a4ad_f7178fd63aef> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/37bd03c5_6032_483c_96da_16ab6076b1bc> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/375c5472_4c42_4526_9cc8_f40b5738bb5d> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/51c5b32a_cff2_43d4_a892_85e7bd1a81d0> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/534ffd70_6cd8_4a7c_b8e1_55de7b1fa8f5> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/56e7a6ba_b148_465d_88f5_1c563f8372d6> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/614945b1_4185_4068_bc0c_b8774d96801b> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/62229ac3_977c_4d68_bd6d_1a38bd29f337> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/65aca9c3_ba5e_4287_910e_5329662b109a> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/8089cafe_1747_41f9_ab2c_536f68e1e729> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/9cdb3a89_3cc2_472a_981e_32169a515b98> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/90b4305a_7cdb_444d_9e3a_0729b0c2c76a> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/92dbd8e1_9e59_448a_8e91_2d681dbc2901> ;
                                                                                rdfs:label "Scotland Excel"@en .
 
 
@@ -1769,7 +1762,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 ###  https://entities.gov.scot/id/gov/puborg/2d2921c2_69ba_4ec5_af3d_452697dd89b4
 <https://entities.gov.scot/id/gov/puborg/2d2921c2_69ba_4ec5_af3d_452697dd89b4> rdf:type owl:NamedIndividual ,
                                                                                         regorg:RegisteredOrganization ;
-                                                                               org:subOrganizationOf <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> ;
+                                                                               <http://www.w3.org/ns/org#subOrganizationOf> <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> ;
                                                                                rdfs:label "Cowal Ferries Ltd"@en .
 
 
@@ -1808,9 +1801,9 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 ###  https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570
 <https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570> rdf:type owl:NamedIndividual ,
                                                                                         <https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody> ;
-                                                                               org:hasMember <https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca> ,
-                                                                                             <https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c> ;
+                                                                               <http://www.w3.org/ns/org#hasMember> <https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca> ,
+                                                                                                                    <https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c> ;
                                                                                rdfs:label "Tayside Contracts"@en .
 
 
@@ -2049,7 +2042,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 ###  https://entities.gov.scot/id/gov/puborg/43f5070e_cf24_4577_89dc_b21cf2ce5b22
 <https://entities.gov.scot/id/gov/puborg/43f5070e_cf24_4577_89dc_b21cf2ce5b22> rdf:type owl:NamedIndividual ,
                                                                                         regorg:RegisteredOrganization ;
-                                                                               org:subOrganizationOf <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> ;
+                                                                               <http://www.w3.org/ns/org#subOrganizationOf> <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> ;
                                                                                rdfs:label "David MacBrayne HR (UK) Ltd"@en .
 
 
@@ -2504,7 +2497,7 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 ###  https://entities.gov.scot/id/gov/puborg/9fb1fb52_57ea_459f_90c6_a8440df46d7b
 <https://entities.gov.scot/id/gov/puborg/9fb1fb52_57ea_459f_90c6_a8440df46d7b> rdf:type owl:NamedIndividual ,
                                                                                         regorg:RegisteredOrganization ;
-                                                                               org:subOrganizationOf <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> ;
+                                                                               <http://www.w3.org/ns/org#subOrganizationOf> <https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92> ;
                                                                                rdfs:label "Argyll Ferries Ltd"@en .
 
 
@@ -2569,8 +2562,8 @@ regorg:RegisteredOrganization rdf:type owl:Class ;
 #    Annotations
 #################################################################
 
-dct:spatial rdfs:label "spatial"@en ;
-            vann:usageNote "This property links an organization to the administrative region(s) that it covers. The value of the properly should be the URI of the region as defined in an authoritative list of regions. In Europe, this is likely to be the Administrative Territorial Units  Named Authority List maintained by the Publications Office's Metadata Registry. The ATU list does not include a geometry. That is, the territory is only identified by its name not its spatial coordinates. This is likely to be the case for similar lists. If geometries are available for the Public Organization's territory, they can be linked from the territorial unit using the Location Core Vocabulary's locn:geometry property."@en .
+<http://purl.org/dc/terms/spatial> rdfs:label "spatial"@en ;
+                                   vann:usageNote "This property links an organization to the administrative region(s) that it covers. The value of the properly should be the URI of the region as defined in an authoritative list of regions. In Europe, this is likely to be the Administrative Territorial Units  Named Authority List maintained by the Publications Office's Metadata Registry. The ATU list does not include a geometry. That is, the territory is only identified by its name not its spatial coordinates. This is likely to be the case for similar lists. If geometries are available for the Public Organization's territory, they can be linked from the territorial unit using the Location Core Vocabulary's locn:geometry property."@en .
 
 
 schema:contactPoint vann:usageNote "The contact point property links to a Contact Point that provides contact information, in particular a phone number and e-mail address. Other contact methods may be included, including online contact information, but this is conceptually distinct from the organization's homepage that may or may not provide contact information."@en ;
@@ -2601,8 +2594,8 @@ skos:prefLabel vann:usageNote "As defined in the ORG Ontology, a preferred label
                rdfs:label "preferred label"@en .
 
 
-org:identifier vann:usageNote "Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms . Analogous lists should be used in other contexts."@en ;
-               rdfs:label "identifier"@en .
+<http://www.w3.org/ns/org#identifier> vann:usageNote "Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms . Analogous lists should be used in other contexts."@en ;
+                                      rdfs:label "identifier"@en .
 
 
 #################################################################
