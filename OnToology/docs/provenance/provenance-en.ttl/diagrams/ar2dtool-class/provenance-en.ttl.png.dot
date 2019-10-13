@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"https://entities.gov.scot/def/gov/cpov-ap-scot/1/" -> "http://www.essepuntato.it/lode/" [ label = "prov:wasAttributedTo" ];
+	"https://entities.gov.scot/def/gov/cpov-ap-scot/1/" -> "https://github.com/dgarijo/Widoco/" [ label = "prov:wasAttributedTo" ];
+	"https://entities.gov.scot/def/gov/cpov-ap-scot/1/" -> "https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244" [ label = "dc:creator" ];
+	"https://entities.gov.scot/def/gov/cpov-ap-scot/1/" -> "https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244" [ label = "prov:wasAttributedTo" ];
+
+}
