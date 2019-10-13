@@ -1,0 +1,3464 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NDPB"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasLegalStatus"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/regorg#RegisteredOrganization"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
+    }, {
+      "@id" : "_:genid15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-scot/hasFunction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Executive"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NDPB"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-scot/hasFunction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Executive"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
+    }, {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/HealthBody"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
+    }, {
+      "@id" : "_:genid27"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/MarketBody"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
+    }, {
+      "@id" : "_:genid35"
+    }, {
+      "@id" : "_:genid33"
+    }, {
+      "@id" : "_:genid31"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Advisory"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/org#hasMember"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Committee"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/ns/org#Organization"
+    }, {
+      "@id" : "_:genid39"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NHSBoard"
+    }, {
+      "@id" : "_:genid43"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NationalJurisdiction"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NHSBoard"
+    }, {
+      "@id" : "_:genid47"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/ns/regorg#RegisteredOrganization"
+    }, {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"
+    }, {
+      "@id" : "_:genid7"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/ns/regorg#RegisteredOrganization"
+    }, {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/HighCourt"
+    }, {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/JPCourt"
+    }, {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffAppealCourt"
+    }, {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffCourt"
+    }, {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SupremeCourt"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/MarketBody"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"
+    }, {
+      "@id" : "_:genid11"
+    } ]
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/FoundationEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.w3.org/ns/org#ChangeEvent"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/PublicOrganisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Public Organization class represents the organization. One organization may comprise several sub-organizations and any organization may have one or more organizational units. Each of these is described using the same properties and relationships."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Public Organisation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ]
+}, {
+  "@id" : "http://data.europa.eu/m8g/hasFormalFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029638",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029959",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029961",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030215",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030216",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030418",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030419",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030421",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030501",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030502",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030503",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030504",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030505",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030509",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030514",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030628",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030629",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030630",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030631",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030632",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030634",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030846",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030847",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000031903",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000036549",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000036552",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000041429",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000043391",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000043393",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://joinup.eu/is/workflow_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/language/default",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/language/translation_author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/language/translation_source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/language/translation_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/owner/uid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/search",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/site-featured",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/site-pinned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/solution/elibrary_creation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/solution/moderation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/solution/related_by_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/solution/webdav_creation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://joinup.eu/voc/policy-domain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/dcmitype/StillImage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/hasVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/licence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rightsHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/spatial",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "This property links an organization to the administrative region(s) that it covers. The value of the properly should be the URI of the region as defined in an authoritative list of regions. In Europe, this is likely to be the Administrative Territorial Units  Named Authority List maintained by the Publications Office's Metadata Registry. The ATU list does not include a geometry. That is, the territory is only identified by its name not its spatial coordinates. This is likely to be the case for similar lists. If geometries are available for the Public Organization's territory, they can be linked from the territorial unit using the Location Core Vocabulary's locn:geometry property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "spatial"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/cpsv#FormalFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/vocab/cpsv#implements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/usageNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/ContactPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "A class representing a point of contact for the organization. The Core Public Organization Vocabulary defines properties for telephone number, e-mail address and opening hours although it is noteworthy that the class is based on schema.org's ContactPoint class (http://schema.org/ContactPoint) that has additional properties that some implementations may find useful."
+  } ]
+}, {
+  "@id" : "http://schema.org/OpeningHoursSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "The Core Public Organization Vocabulary makes full use of schema.org's openingHours property to provide details of regular operations. The Opening Hours Specification  class can be used to provide details of exceptional circumstances, such as being closed on public holidays. Note that the property schema:opens is not used, therefore the contact point is closed. More specific closures can be indicated by including the schema:validFrom and schema:validThrough properties."
+  } ]
+}, {
+  "@id" : "http://schema.org/contactPoint",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "The contact point property links to a Contact Point that provides contact information, in particular a phone number and e-mail address. Other contact methods may be included, including online contact information, but this is conceptually distinct from the organization's homepage that may or may not provide contact information."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contact point"
+  } ]
+}, {
+  "@id" : "http://schema.org/email",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "A property through which an e-mail address for the Public Organisation, or a representative of it, can be contacted."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has email"
+  } ]
+}, {
+  "@id" : "http://schema.org/hoursAvailable",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "The availabilityRestriction property links a Contact Point to details of specific details of its opening hours that override the general case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "availability restriction"
+  } ]
+}, {
+  "@id" : "http://schema.org/logo",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "A property to link an organization to its logo. The value of this property can simply be the URL of the logo but it is better for developers if it links to an object that provides the URL of the image and essential metadata about it, notably its dimensions. In the RDF release of the CPOV, this property is bound to schema:logo which takes either a URL or a schema:ImageObject as its value."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "logo"
+  } ]
+}, {
+  "@id" : "http://schema.org/openingHours",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "The value of this property is structured text that gives the hours at which the contact point is normally available. Days are specified using two-letter combinations: Mo, Tu, We, Th, Fr, Sa, Su. For example, if the contact point is open Monday-Friday, 9 -5, the value of the openingHours property would be Mo-Fr 09:00-17:00. If the Contact Point is only available on Tuesday and Thursday between 6 and 8pm, the value would be Tu,Th 16:00-20:00."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "opening hours"
+  } ]
+}, {
+  "@id" : "http://schema.org/telephone",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "A property through which a phone number for the Public Organization, or a representative of it, can be contacted."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has telephone"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/1999/xhtml/vocab#next",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/1999/xhtml/vocab#prev"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/1999/xhtml/vocab#prev",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "In line with ORG and SKOS itself, an organization may have any number of alternative or informal names, irrespective of language."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "alternative label"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#notation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "A notation is a string of characters used to uniquely identify a concept within the scope of a given concept scheme."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "notation"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organization. An organization may only have one such name in any given language. Primary names may be provided in multiple languages with multiple instances of the preferred label property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "preferred label"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/adms#status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#keyword",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/legal#LegalEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@language" : "en",
+    "@value" : "legal:LegalEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the key class for the Business Core Vocabulary and represents a \n    business that is legally registered. In many countries there is a single registry although in others, \n    such as Spain and Germany, multiple registries exist. A Legal Entity is able to trade, is \n    legally liable for its actions, accounts, tax affairs etc. It is a sub class of org:FormalOrganization\n    which covers a wider range of entities, such as charities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/legal#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Legal Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#FormalOrganization"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#ChangeEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#FormalOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "from Organization ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Organization"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#changedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#hasMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#hasSubOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#subOrganizationOf"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#hasUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#identifier",
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms . Analogous lists should be used in other contexts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifier"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#memberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#originalOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#purpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#resultedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "resulted from"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#resultingOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#subOrganizationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/org#unitOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/regorg#RegisteredOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "rov:RegisteredOrganization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal",
+    "@value" : "rov:RegisteredOrganization is the key class for the Registered Organization vocabulary and represents an organization that is legally registered. In many countries there is a single registry although in others, such as Spain and Germany, multiple registries exist. A Registered Organization is able to trade, is legally liable for its actions, accounts, tax affairs etc. Legal entity status is conferred by the act of registration cf. org:FormalOrganization that applies to any legal entity, including those created by other legal means.\n    This makes registered organizations distinct from the broader concept of organizations, groups or, in some jurisdictions, sole traders. Many organizations exist that are not legal entities yet to the outside world they have staff, hierarchies, locations etc. Other organizations exist that are an umbrella for several legal entities (universities are often good examples of this). This vocabulary is concerned solely with registered organizations.\n    In RDF, Registered Organization is a sub class of the Organization Ontology's org:FormalOrganization which is itself a sub class of the more general 'Agent' class found in FOAF and Dublin Core that does encompass organizations, natural persons, groups etc. - i.e. an Agent is any entity that is able to carry out actions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/TR/vocab-regorg/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Registered Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#FormalOrganization"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/accrualPeriodicity" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency/IRREG"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "This is the ontology of the Scottish application profile for Organisations (Public). It allows one to model the main information on organisations (public), including the organisation of the sub-organisations. It is in draft form."
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/language/ENG"
+  } ],
+  "http://purl.org/dc/terms/licence" : [ {
+    "@id" : "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-04-29"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244"
+  } ],
+  "http://purl.org/dc/terms/rightsHolder" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Organisation (public realm) ontology - for Scotland and elsewhere"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "cpovapscot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Scottish extension of Organisation ontology / application profile based on  EC Core Public Organisation Vocabulary and W3C Organization Vocabulary"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the ontology of the Scottish application profile of Organisations (Public)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Organisation (public realm) ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/1/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 1o - Modified 13 October 2019 - An initial draft."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral",
+    "@value" : "<p>Based on various UK documents describing the classification of public bodies, and the <a href=\"https://ec.europa.eu/eurostat/cache/metadata/Annexes/nasa_10_f_esms_an1.pdf\">European System of Accounts (ESA) 2010</a> and the <a href=\"https://www.ons.gov.uk/methodology/classificationsandstandards/economicstatisticsclassifications/ukeconomicstatisticssectorandtransactionclassificationstheclassificationprocess\"> UK Office for National Statistics Methodology</a>\n</p>"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Advisory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Advisory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Function"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Advisory Non-Departmental Public Body"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arms Length Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralBank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Central Bank"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Central Government Public Corporation"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Central Government Organisation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Committee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Committee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CommunityCouncil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Community Council"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ConservationBoardAONB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Conservation Board for Area of Outstanding Natural Beauty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Council",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Unitary Authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CrownEstate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Crown Estate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/DepartmentSpecificEntityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Department-specific Class of Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/DevolvedAdministration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Devolved Administration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovernmentOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/EducationalEstablishment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Educational Establishment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Executive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Executive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Function"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Executive Agency"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Executive Non-Departmental Public Body"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ExpertCommittee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Expert Committee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Function",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Function"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/HealthBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Health Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/HighCourt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "High Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Court"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Integration Authority"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/JPCourt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "JP Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Court"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Jurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LegalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Legal Status"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovPC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local Government Public Corporation"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local Government Central Purchasing Body"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local Government Organisation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local Harbour Trust"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/MarketBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Market Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMarketBody"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NDPB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non-Departmental Public Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NHSBoard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHSBoard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/HealthBody"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NationalJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "National Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "National Park Authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non-Classified Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non-Classified Government Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedEntity"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMarketBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non-Market Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non-Ministerial Department"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/OfficeOrTaskforce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Office Or Taskforce"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Other Significant Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parliamentary Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ParlCommOrOmbuds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parliamentary Commissioner or Ombudsman"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/PublicBroadcastingAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Public Broadcasting Authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Purchasing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Purchasing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Function"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Regional Transport Partnership"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/RegulatedInspectedServiceProvider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Regulated and Inspected Service Provider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Regulator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Regulator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://data.europa.eu/m8g/PublicOrganisation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffAppealCourt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sheriff Appeal Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Court"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SheriffCourt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sheriff Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Court"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Special NHS Board"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid41"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialPurposeVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Special Purpose Vehicle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Financial Vehicle Corporation"
+  }, {
+    "@value" : "Special Purpose Entity"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/StatutoryOfficeHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Statutory Office Holder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/SupremeCourt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Supreme Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Court"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Territorial NHS Board"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid45"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tribunal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/ArmsLengthBody"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/UtilityRegulator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Utility Regulator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/Regulator"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/WorkingGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Working Group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/NonClassifiedGovernmentEntity"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "A property to link a public organization to its address. For consistency with INSPIRE, the Location Core Vocabulary's Address class should be used."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "address"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/administeredBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "administered by"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/administers"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/administers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "administers"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@language" : "en",
+    "@value" : "This relates an organisation to either another organisation, or to a geographic area (e.g. the area administered by a unitary authority)"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@language" : "en",
+    "@value" : "Organizations typically have one or more functions, and these can be from other taxonomies, but this can also be used in class expressions to indicate overlapping functions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has function"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has jurisdiction"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-ap-scot/hasLegalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has legal status"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/def/gov/cpov-scot/hasFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/018bf462_54d0_4041_8967_61cb918d2b0e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transport Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/030b2724_75bd_496f_bfad_30ec8428dd37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Court of Lord Lyon"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/039df974_29d7_460e_8a19_3d7d6091b256",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Highland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/05e705e9_6bb7_4b48_9cf3_6c0551cc4f00",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Stirling Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030502"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/06c72973_1d22_4fff_87ee_f5930ad71494",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Commissioner for Ethical Standards in Public Life in Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/075b9514_ca2b_416b_8eaf_6dc63089f85f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Revenue Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/076a09c1_d312_4c90_a4a7_96090510217d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "West Lothian Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030632"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/079ab57e_1b0c_4bd5_a411_730bc2667bc6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South-West of Scotland Transport Partnership"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "Swestrans"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/07cbd81d_c4f5_4a1b_8097_89fe8178bca7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Prestwick Aviation Holdings Limited"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/08a62407_306f_4add_b004_51fca19a7486",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "State Hospitals Board for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/08a6d334_7f3e_4123_b1a1_07cf7218b325",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Police Authority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/0a4093e3_3923_475d_a3f8_7003693262a6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Prison Service"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/0ab6f5ba_0b95_42a8_897b_a5e8a10ef0d4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Post Qualification Education Board for Health Science Pharmacists in Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/0b32194c_ced5_4fff_9bab_2640bba8e765",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Loch Lomond and The Trossachs National Park Authority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/0b93343a_ea5c_437b_af4e_e7e7019f547e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid49" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Skills Development Scotland Co. Limited"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Skills Development Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/0c396404_0a18_4a71_a519_d4f43aeada0a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Highland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/0c3f3d4e_d684_4b7e_9ecf_cc633c94e7b5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HM Inspector of Constabulary in Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/0d00eb12_4c67_4ad8_a596_4216faa7aa48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "St Margaret‘s Hope Pier (Sth Ronaldsay)"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/10bd68bf_2769_45bc_9c4d_0bf0041f2506",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS24"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/11ba0cd8_4999_46e5_86d7_3118e5313e3c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dundee City"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Angus Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030216"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/1474808a_0f21_451b_a4bc_e807f140b630",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Ayrshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000043393"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/147fb4c3_9cd9_481a_9fb0_a968b6ab7932",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Health Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/14858b1e_c3c8_49af_b7ef_e8056d2d9087",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Borders"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/14cf495d_d2b8_4678_8495_0f9eebadd56d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Western Isles"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/16c389a0_0fbc_4f3c_92cc_97f7166610a9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Renfrewshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030846"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/1715ee19_648c_4e5c_b1b6_9566a42f5c28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Royal Botanic Garden, Edinburgh"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/1766a2a7_a963_4e42_a1d0_6f3c1a5cdcc5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Ayrshire & Arran"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/19e159c2_3a2b_462f_9a8d_869b8e0e05ec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scotland Excel"
+  } ],
+  "http://www.w3.org/ns/org#hasMember" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/a042e3b7_cd0b_43d4_93ff_be93f50efbe2"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/a914a2cc_9b63_485c_9e58_5e41a3695001"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/b6ae570a_405f_407d_b557_f9c728869203"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/cd71a0ab_9bfa_4fcb_8809_07c1ef614c3a"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/df5cb8bd_03f8_4fca_84a5_f666a6853f8e"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/eaf6eec5_a6cc_45af_a187_65e823b00201"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/fd902804_9a40_452a_ad54_212014a3de39"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/05e705e9_6bb7_4b48_9cf3_6c0551cc4f00"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/076a09c1_d312_4c90_a4a7_96090510217d"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/1474808a_0f21_451b_a4bc_e807f140b630"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/16c389a0_0fbc_4f3c_92cc_97f7166610a9"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/21bfd213_571b_4cdb_b553_de45f8a8c44d"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/299e8b90_74d8_4e66_b32b_76fc0d13e95c"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/36bd641c_f069_4f3e_b916_3ebfa193149f"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/365df7dc_48f0_4c18_a4ad_f7178fd63aef"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/37bd03c5_6032_483c_96da_16ab6076b1bc"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/375c5472_4c42_4526_9cc8_f40b5738bb5d"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/51c5b32a_cff2_43d4_a892_85e7bd1a81d0"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/534ffd70_6cd8_4a7c_b8e1_55de7b1fa8f5"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/56e7a6ba_b148_465d_88f5_1c563f8372d6"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/614945b1_4185_4068_bc0c_b8774d96801b"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/62229ac3_977c_4d68_bd6d_1a38bd29f337"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/65aca9c3_ba5e_4287_910e_5329662b109a"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/8089cafe_1747_41f9_ab2c_536f68e1e729"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/9cdb3a89_3cc2_472a_981e_32169a515b98"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/90b4305a_7cdb_444d_9e3a_0729b0c2c76a"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/92dbd8e1_9e59_448a_8e91_2d681dbc2901"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/1a580f88_ffa9_4258_b09b_d7b2eb24dba0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "St Abbs Harbour (Coldingham Shore)"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/1a84d596_69f3_458e_acf9_85949433c3ff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Crofting Commission"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/1bc10c00_406e_4772_91d3_762a81517727",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Caledonian Maritime Assets Ltd"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/1dbf1754_184e_4f84_8078_701b1f42e61f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tarbert (Loch Fyne) Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/21bfd213_571b_4cdb_b553_de45f8a8c44d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "West Dunbartonshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000036549"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/223b638b_25f8_419a_938d_4a140f881d6e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Ayrshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/23b8038f_a69c_48ad_887a_f5e516352914",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Drinking Water Quality Regulator"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/26e2a333_8222_45b8_81ce_c12a9664671b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Agricultural Wages Board"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/27fe5857_744e_42b5_a49c_e0a63b31b178",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Visit Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2854032a_26e3_454e_9972_a6687e8af4e5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Loch Lomond and The Trossachs National Park Authority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/285a232d_6aea_44f0_a3a3_9a779b99c19f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Collieston Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/299e8b90_74d8_4e66_b32b_76fc0d13e95c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inverclyde Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030629"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2c771911_f5aa_423d_8e78_cbb48d448c28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Creative Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2d2921c2_69ba_4ec5_af3d_452697dd89b4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/regorg#RegisteredOrganization" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cowal Ferries Ltd"
+  } ],
+  "http://www.w3.org/ns/org#subOrganizationOf" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2d56418e_fd28_4e3b_b02c_a6c430cdd66b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North-East of Scotland Transport Partnership"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "NESTRANS"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2e1fd01b_d4b0_4705_aab4_6c94448afe3f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tayside and Central Scotland Transport Partnership"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "TACTRAN"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2e550934_4e21_4c2f_9940_e38fa328a463",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Western Isles"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2efa3045_2773_4f3f_9a78_64789c31b8ce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wick Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2f6b185e_266c_4548_b9d1_2f83266ef0ee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Shetland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/2fe71caa_5843_41f3_90b9_c8128f807570",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalGovernmentCentralPurchasingBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tayside Contracts"
+  } ],
+  "http://www.w3.org/ns/org#hasMember" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/1260ef94_caee_467d_9ab9_60a3672f2cca"
+  }, {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/302b271a_c993_46ce_a0b4_4012b7ecee6e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Industry Commission for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/30a429db_ea3b_412d_ba0d_d060d9462e45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scotland's Commissioner for Children and Young People"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/32c1ae99_f104_48a5_b2b0_9b21d233542d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Housing Regulator"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/36461122_5c1e_4830_9da1_42941dc09d6a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Moredun Research Institute"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/365df7dc_48f0_4c18_a4ad_f7178fd63aef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Falkirk Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030504"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/36bd641c_f069_4f3e_b916_3ebfa193149f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Glasgow City Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030631"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/370050e0_9d69_4d09_b305_aee95201fce9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Private Rented Housing Panel"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/375c5472_4c42_4526_9cc8_f40b5738bb5d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Moray Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029959"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/37b59908_15a9_4bbc_9040_f1220880ad18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Further & Higher Education Funding Council"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Funding Council"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/37bd03c5_6032_483c_96da_16ab6076b1bc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Highland Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029638"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/37d27d5a_a522_44d9_af79_0a14c02f09b8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Advisory Committee on Distinction Awards"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/3909e22f_f8ca_4215_97c5_19e302caa718",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Upper Tax Tribunal for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/391bb193_0f4d_489b_8f91_29c336a1e2d4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Police Investigations and Review Commissioner"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/39a7db13_42f0_4941_be3f_cea9465ac6d7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Golden Jubilee National Hospital"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/39d392dd_5aa3_4824_87ed_28ac59c8aac3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aberdeen City"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/3a7af8e0_d527_433c_9e0e_ee50059b0457",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Stornoway Port"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/3afe04a0_9e3e_4d3a_b68d_a95e1a9b55e2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Children's Reporter Administration"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/3bb0a8aa_c4ed_4e52_9384_fbe4c4a3d2df",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Renfrewshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/3c7cd4e9_2312_48c9_90c9_bdc69209a02b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Community Justice Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/3e20c75b_dc59_4db7_9e2d_447ddc79ea4f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Audit Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/4021a775_c22b_4ab3_b7d2_ef0caea455e5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Studentship Selection Committee"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/40c4c7b2_8ac1_4f22_8816_ef92965b2676",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Strathclyde Partnership for Transport"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/40fb1f18_7f5c_4828_9542_377b6489f43c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Brownies Taing (Lerwick)"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/42acd0f8_1bb5_4cf0_8e37_34fc5dec6b8a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sportscotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/4316fcaf_18a3_4708_9668_d72dbe4b90d8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Central Advisory Committee on Justices of the Peace (Scotland)"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/43f5070e_cf24_4577_89dc_b21cf2ce5b22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/regorg#RegisteredOrganization" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "David MacBrayne HR (UK) Ltd"
+  } ],
+  "http://www.w3.org/ns/org#subOrganizationOf" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/45669049_b124_4c88_b765_abbcd535164c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/regorg#RegisteredOrganization" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TS Prestwick Holdco Ltd"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/46bec378_ddb1_4a78_b0bb_206809674ec9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Quality Meat Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/48732be4_ef17_498d_9e7f_22b786daa818",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inverclyde"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/49bd8e4f_7a00_4d20_a903_fcec5598fe21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Fife"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/4c968f5c_64dc_461d_95b1_bbc5d2a8e073",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South Lanarkshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/DevolvedAdministration" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Scottish Government"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000041429"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/4ceb6522_d4de_44e3_94b3_2171a145b5fa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Greater Glasgow and Clyde"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/4d42286f_6802_4b34_b357_43b1be2b2814",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid52" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Futures Trust Ltd"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/4fb51bb8_b7c8_4963_8d10_c1e968092f2f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Peterhead Port"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/50d31ce4_1b07_42ad_9531_61ee35b30d7b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Burnmouth Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/51c5b32a_cff2_43d4_a892_85e7bd1a81d0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North Lanarkshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030503"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/530a74a8_4465_4b3b_8a46_3e591effcf41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/regorg#RegisteredOrganization" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Glasgow 2014 Ltd"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/534ffd70_6cd8_4a7c_b8e1_55de7b1fa8f5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Midlothian Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030634"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/537663e3_9971_4d3e_b09b_8b8a05221a3a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pennan Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/53c2995f_1d1e_456b_9b13_21b89e6a6443",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "National Galleries of Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/54bb0fea_5ae0_483c_b261_47024d6150a2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Historic Environment Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/54ef0c17_a26e_4da2_a01d_f3389ef1d5bd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Board Endowment Funds (Scotland)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Scottish NHS Charities"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/56bc7885_c092_46ca_b4e3_cd3b6da10e81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Food Standards Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/56e7a6ba_b148_465d_88f5_1c563f8372d6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aberdeen City Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030421"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/57a8edbc_8216_4496_9127_dc7dbf4aa7e8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Police Service of Scotland"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Police Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/58bbffec_cabc_410b_ab2c_bfe7efffdd36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Lothian"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/58da35bb_0ca5_445c_9218_7ab1028f0d77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Borders"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/5aed306d_1a71_4ef5_a394_48760f5b3fe3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Renfrewshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030630"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/5b6f8b6c_96d0_44f1_a6fa_7b64f8c6412c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Perth and Kinross Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030110"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/5d8d48e6_aafe_42cc_bb14_daf64e78c00f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gaelic Television Committee"
+  }, {
+    "@language" : "gd",
+    "@value" : "Seirbheis nam Meadhanan Gàidhlig (MG Alba)"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/5da964fa_cd9c_483f_a8ea_b6712b41267d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Social Services Council"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/5ed6256e_9558_46bf_bda4_4109f6d6f695",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Forth Estuary Transport Authority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/6084acb9_d246_4814_8711_0b8d50963589",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/HealthBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Ambulance Service Board"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/614945b1_4185_4068_bc0c_b8774d96801b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The City of Edinburgh Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030505"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/61ae4b29_7230_42dd_90c2_dcdebd750c1c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South-East of Scotland Transport Partnership"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "SESTRAN"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/62229ac3_977c_4d68_bd6d_1a38bd29f337",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aberdeenshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030111"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/62a8b7a7_cf73_438d_9dc6_5822c72b4aa5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North Lanarkshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/65a24ace_e92c_484b_b65b_5e5bb1c95578",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Canals"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/65aca9c3_ba5e_4287_910e_5329662b109a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dumfries and Galloway Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000031903"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/66bfe6f1_19c2_4d4b_aec6_383b89deca5b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialPurposeVehicle" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aberdeen Western Peripheral Route (AWPR) Special Purpose Vehicles (SPVs)"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/679fbc0e_ed35_4f66_bf82_1db425bc2743",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accountant in Bankruptcy"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/693fe766_8cf6_437f_8006_82e60b01e47b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dumfries and Galloway"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/69780da0_3c40_465d_9e52_9a361a8eb8db",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Perth & Kinross"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/69b84217_4c76_4734_a71c_bb808f112287",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Natural Heritage"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/6cb35dd9_3e43_4fb8_a659_61909f816ecd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Ambulance Service"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/6e007bdd_9e90_4276_9fb8_f048da176039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rent Assessment Panel for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/701cd39f_68df_477e_98f7_b14fcae99698",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North Ayrshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/70cf8856_14ad_41ea_9acd_23489651c73f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Lanarkshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/70d8bcde_8984_4eae_bd0b_66cf0705016b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Fiscal Commission"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/71520dbe_46e7_43e6_91bb_280858be428b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Parliamentary Corporate Body"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/71a3383f_377c_4b74_b099_286c5db0bbfe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cruden Bay Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/7432721f_6acb_4dea_8ad5_8cfeebf5ec88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "National Museums of Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/74bf730b_f92f_4b09_baea_0a9fde6950bd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Highlands and Islands Enterprise"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/751a451c_d653_49b7_9334_e44b585f720a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HM Fire Service Inspectorate in Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/7617423d_7d4f_4a6c_a364_7ba034e2a85e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Tayside"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/7620f2dd_f232_493b_9743_c173e4adbe75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Agricultural College"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/7a1c7819_978a_4910_9ded_9780a191c6b2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Enterprise"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/7a42e27b_a86f_413a_8273_70401202c357",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lands Tribunal for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/800fde6d_83a2_4507_8723_6375288ef94c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rowett Research Institute"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8014c296_9e59_4e4b_b88e_b63174550d7b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Law Commission"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8089cafe_1747_41f9_ab2c_536f68e1e729",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Shetland Islands Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030514"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8160d157_2bb3_4090_8407_5689c5c16eed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Moray"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8275676d_4fbe_408e_9a80_1eb76b62abd6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Clackmannanshire and Stirling"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8295b3ce_8133_462f_afd6_7d0b5a134687",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mental Health Tribunal for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/83636d62_1059_4650_b22b_6ee0f33c1dfb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Criminal Cases Review Commission"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/84119e24_8f28_46ed_9e3b_6852553d2097",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Fire and Rescue Service"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/84a2fafa_7256_48c7_942a_6e80d9e75800",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Highlands and Islands Transport Partnership"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "HITRANS"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/853b2293_043c_4493_a7c7_147540eb2216",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Argyll and Bute"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8957aff9_0cda_4dc9_baa7_fb8e9d17a251",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fife"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8bbbe5e3_c87a_41e4_9c32_022bdeda36f6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mobility and Access Committee for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8d90e2fa_8de8_4e5d_85da_6384823f8d19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fraserburgh Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/8f62e289_f31a_40af_a730_30d5decd77e0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "National Library of Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/904596e2_c73d_4acc_9970_57c5c666855c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Comhairle nan Eilean Siar"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030022"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/90b4305a_7cdb_444d_9e3a_0729b0c2c76a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Clackmannanshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030418"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/929a9546_ba45_41e5_b2dc_c16c833af8da",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HM Chief Inspector of Prosecution in Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/92dbd8e1_9e59_448a_8e91_2d681dbc2901",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North Ayrshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030628"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/93ceb4a4_d7dc_489d_8250_a72e4821bb92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Children's Hearings Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/98e30113_87fb_4f13_8a2e_909adf97d6eb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Grampian"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/990515cd_1df2_4fcd_94e9_b990d8a4e040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Disclosure Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/99d316c3_493e_430f_9fbb_b515e3fe87ec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Healthcare Improvement Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9b1bf79a_294e_42da_be7e_b5832b31f886",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Charity Appeals Panel"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9b9cae69_78c1_4c2a_9b56_b1d2b2ecc9a8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Local Authorities Remuneration Committee"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9c11079f_c965_4b9e_83e8_a30614bbe848",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Land Commission"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9c6c4715_6844_48db_83a5_81bd4fed702e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Glasgow City"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9cdb3a89_3cc2_472a_981e_32169a515b98",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Lothian Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030509"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9d248799_2588_4740_9095_7502f466884b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gardenstown Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9d5a88fb_2fd3_40d4_a2ae_0590442db22b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Student Awards Agency for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9d94d32a_df97_4e64_a6d4_bbe1f4942125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scrabster Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9ecc665b_1ff0_4fab_afc7_7bdd55bc8ef6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parole Board for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Highlands and Islands Airports Ltd"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9fb1fb52_57ea_459f_90c6_a8440df46d7b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/regorg#RegisteredOrganization" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Argyll Ferries Ltd"
+  } ],
+  "http://www.w3.org/ns/org#subOrganizationOf" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/9ffc6ae5_06a9_4dd4_b358_b0cf4dfb5f48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ParlBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Scottish Parliament"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a00d15bf_818c_4965_bc34_12302a194a72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Consolidated Fund"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a042e3b7_cd0b_43d4_93ff_be93f50efbe2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Borders Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000036552"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a0a1d863_7b36_4a22_9d49_be2a544e422f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Forth Valley"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a0cd94c2_2275_4763_be5a_d079315227cd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North Berwick Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a1fb0229_8955_409e_9cb9_1538c3fccfc7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Joint Industry Board"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a3515fbb_0d0a_4ffe_85ed_f587ae3662a5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "West Dunbartonshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a594c663_ca47_46f8_87bc_d8e06afd5123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Orkney"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a5f61920_b25a_4893_97b8_ae6fb8a113b1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cromarty Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a636cb82_e42c_4a4b_b15f_f22dc77c1877",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aberdeen Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a7de36de_65e1_4e64_8e22_4c5bd695e6ec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Risk Management Authority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a81fb394_6a71_4bae_8d8e_d21d8ee01105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/HealthBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "National Waiting Times Centre Board"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a8ec77d4_5cc5_4a45_a4e6_20369639cec0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Office of the Queens Printer for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a914a2cc_9b63_485c_9e58_5e41a3695001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South Ayrshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000043391"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/a98302bf_51dd_4b65_b103_f3cdb88d50b2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Auchmithie Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/ab385972_ab63_4444_9a93_80043ae126df",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "St Andrews Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/ac966320_9a71_444a_8e81_fb1414ab4aa4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Care Inspectorate"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/ad6ac135_5913_4952_b95d_42973eac5c8f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Independent Living Fund Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/af741459_81d5_40a0_b7a5_21e85a84fea4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Dumfries & Galloway"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b068a5b9_fc78_429c_bc55_255f96356f7b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Courts and Tribunals Service"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b09d57a7_4ee7_488d_a2ca_822ba54f77d0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Legal Complaints Commission"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b0f567a5_c5a0_42c1_9ccd_0814df7affeb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tay Road Bridge Joint Board"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b37873f6_2f34_41e7_8c85_56e7143cc734",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "River Nith Navigation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b37dcb15_2c24_4e91_8b42_76c0d8462708",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Road Works Commissioner"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b3b5c867_8d5b_485a_a7c9_ea719cebcbfc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Lothian"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b4299591_2c49_4cc6_821a_db7574331708",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/HealthBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Council for Post-Graduate Medical Education and Dental Education"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b43e21ff_0db7_46be_ad19_da987141f59f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Office of the Scottish Charity Regulator"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b66fbf4c_f0d6_4b32_abd6_1e7579fc6744",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Whitehills Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b6ae570a_405f_407d_b557_f9c728869203",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South Lanarkshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030847"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b78c74ac_70bd_4836_830b_66d5b184b05e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dundee City Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030215"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b7eba161_3413_4117_8914_b212ae756607",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Additional Support Needs Tribunals for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/b7f131b3_6c4a_464e_97dc_de8853a6875c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aberdeenshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/babb765b_fe3b_4d8d_86a6_5729ffa407cb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Social Care and Social Work Improvement Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/bfce3435_ecc4_46d3_957d_d07f9161872c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "West Lothian"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/c047d935_88af_4fa3_872c_f8ad4645febd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Architecture and Design Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/c1d46efd_a5ae_4206_90d3_660970e14a96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Homeowner Housing Panel"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/c29a268a_1076_4bd5_836f_2b61e01a4c03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Eyemouth Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/c5ed269a_6edd_40e7_81ed_9c2c0ac6d902",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mallaig Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/c8a13eb9_f5ac_48b6_9616_311c6a1f8e49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Midlothian"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "David MacBrayne Ltd"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/c93c39bb_ff1f_4d31_84e6_7b0cb03d9b8a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South Ayrshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/c94ed99a_d8b6_4819_99d4_29c971badd64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HM Chief Inspector of Prisons in Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/ca2e75bb_61e5_4d02_b997_ddfd31aa8ab6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Education for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/cb0ef81c_815e_4351_8696_a8ea67c94254",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/regorg#RegisteredOrganization" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Airport Management Services Limited (s H&IE)"
+  } ],
+  "http://www.w3.org/ns/org#subOrganizationOf" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/9ef9f538_bf27_4cf5_a850_9165efdb531d"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/cc4ae308_2620_4bed_8cbe_6e1c5ae6230c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Glasgow Prestwick Airport"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/cd71a0ab_9bfa_4fcb_8809_07c1ef614c3a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Dunbartonshire Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030501"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/ce211f96_d1ec_43b2_8019_fd6317f8c913",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/HealthBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mental Welfare Commission for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/cffb4775_8b08_473a_a07a_feb929424c67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dunbar Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/d286ad7d_dc8a_4c05_a7ed_99de63a7c484",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Judicial Appointments Board for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/d3a602f9_695e_414a_8cd4_5ced038979f4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/RegionalTransportPartnership" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Shetland Transport Partnership"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ZetTrans"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/d671fe7b_ce83_4d03_a584_8f725f0cc991",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CentralGovPC" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Water"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/d712f5e1_ae82_4320_9819_53e59695d59e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Standards Commission for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/d8301d48_3b9f_42ca_94ea_ef9300f9f6eb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Avoch Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/da503c70_2fe0_44dc_821b_3d1a0eac71d0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Public Pensions Agency"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/dac6beff_2ca7_4c71_ba93_b68db4d1ef80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Registers of Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/dbe465de_9b84_414c_b5c0_c7bbf067749b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bòrd na Gàidhlig"
+  }, {
+    "@language" : "gd",
+    "@value" : "Bòrd na Gàidhlig"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/dbe8ac32_1a87_4d67_be93_34657c9f3e9d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Convener of School Closure Review Panels"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/dc2747f7_7cc2_42d1_bd8b_b387eeb3ab18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/CrownEstate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Crown Estate Scotland - Interim Management"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/dc4f30fb_eca2_4b98_9fab_3d086a8d0bc3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Human Rights Commission"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/df5cb8bd_03f8_4fca_84a5_f666a6853f8e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Orkney Islands Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000029961"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e260c061_06ea_42ed_bdfb_34f84bb743f8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Education Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e2c95208_575e_4793_85e0_5907f7afae5c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rosehearty Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e2cad0d8_d1c0_407d_82af_e9e0414048e0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/SpecialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS National Services Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e6ed7c37_0103_4b49_b5f5_7bb7ac41b2a6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Commission for Social Security"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e702314e_b191_4ccb_bab5_05653cb7059c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Legal Aid Board"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e80b7842_1811_4f42_ada0_9090470f76d9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NationalParkAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cairngorms National Park Authority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e91456dc_9c49_4f34_b04f_e93ea4e69a69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accounts Commission for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e91c3f4c_1093_4a08_84a0_de760266e45e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Urr Navigation"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/e9d3286c_0c44_4a52_9cfb_1569dddb1c3f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cromarty Firth"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/ea45a966_9daa_479d_bd1f_2139f58ea731",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ullapool Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/eaf6eec5_a6cc_45af_a187_65e823b00201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fife Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030419"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/edbf2355_5ff8_49b0_8fc2_36a17afc9f4b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Port Seton Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/ee1a5bb7_ddd8_4e0c_8445_1bab65966f0f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lerwick Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f1606511_2eff_4b98_8644_61eae10f9ce5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Dunbartonshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f1df7cdb_98ee_4c79_86db_f607b79522ba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Angus"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f2131593_fe29_405a_9f4a_ab6d07eda2dd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Tribunal" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "First-tier Tax Tribunal for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f25de991_8209_4032_9a5d_806801e0a9c2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/OtherSigBody" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Justices of the Peace Advisory Committees"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f3c1202a_3681_44fd_abdd_442572b61648",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Environment Protection Agency"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f3f7a101_e4ae_451b_830a_8677051cea1d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/NonMinisterialDept" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "National Records of Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f5a68029_c14c_451d_8d3c_5dbb9da370e7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Renfrewshire"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f5fad756_de94_4113_9aa0_d928d190e2c9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inverness Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f7937f9c_90e3_4063_85b3_f36d4398391d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/regorg#RegisteredOrganization" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Northlink Ferries Ltd"
+  } ],
+  "http://www.w3.org/ns/org#subOrganizationOf" : [ {
+    "@id" : "https://entities.gov.scot/id/gov/puborg/c8e71c45_f8f5_42f4_9f96_da7e07d6bb92"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f846cf22_301a_426e_885c_06c4484344ae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Montrose Port"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f89b9bd1_527e_48f4_b04a_a2e1ae24dbca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Skerray Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f8bbd825_ec19_49ef_a0cf_692ea5d43e8b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Falkirk"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/f9104e48_5007_499d_81ad_4b0306a6aff4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveAgency" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Social Security Scotland Agency"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/fa773131_4d22_496d_97a7_7b5cf45a185c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Shetland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/fbe94b56_afdc_4642_a989_6f6c19a6bace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/IntegrationAuthority" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Edinburgh City"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/fccd4a49_cefb_44be_9e78_ec562c8a6296",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Scottish Qualifications Authority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/fd6564c4_6e62_49f9_a53f_90e893de80bd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/LocalHarbourTrust" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Annan Harbour"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/fd822d09_fbb0_43b9_9bdc_a1652eff07f6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/AdvisoryNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local Government Boundary Commission for Scotland"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/fd902804_9a40_452a_ad54_212014a3de39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/Council" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Argyll and Bute Council"
+  } ],
+  "https://entities.gov.scot/def/gov/cpov-ap-scot/administers" : [ {
+    "@id" : "http://data.ordnancesurvey.co.uk/id/7000000000030106"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/fedc1ef3_6266_4b25_b220_fdd91f0e2f32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/ExecutiveNDPB" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cairngorms National Park Authority"
+  } ]
+}, {
+  "@id" : "https://entities.gov.scot/id/gov/puborg/ffa00757_d039_4be2_91a6_58643a639ab5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://entities.gov.scot/def/gov/cpov-ap-scot/TerritorialNHSBoard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHS Orkney"
+  } ]
+} ]

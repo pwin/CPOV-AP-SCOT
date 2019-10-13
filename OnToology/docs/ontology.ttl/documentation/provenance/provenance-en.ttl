@@ -1,0 +1,10 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<https://entities.gov.scot/def/gov/cpov-ap-scot/1/> a prov:Entity;
+	 dc:title "Organisation (public realm) ontology - for Scotland and elsewhere";
+	 prov:wasAttributedTo <https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244>;
+	 dc:creator <https://entities.gov.scot/id/gov/puborg/4cc96a2c_e780_47c9_ac0c_633e285a1244>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "2019-04-29";
+.
