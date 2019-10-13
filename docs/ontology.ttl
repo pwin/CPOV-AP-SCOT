@@ -181,10 +181,6 @@
                                    rdfs:domain <http://data.europa.eu/m8g/PublicOrganisation> .
 
 
-###  http://xmlns.com/foaf/0.1/Image
-<http://xmlns.com/foaf/0.1/Image> rdf:type owl:AnnotationProperty .
-
-
 #################################################################
 #    Datatypes
 #################################################################
